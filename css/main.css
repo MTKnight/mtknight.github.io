@@ -1,5 +1,5 @@
 *  { margin: 0; box-sizing: border-box; }
-@import url("https://fonts.googleapis.com/css?family=Poiret+One|Roboto:300&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poiret+One%&Roboto:300&display=swap");
 
 body {
 	font-size: 16px;
@@ -26,8 +26,9 @@ h2 {
 	border-bottom: 1px solid #bbb;
 }
 
-h3 {
+ul {
 	font-family: 'Roboto', sans-serif;
+	text-decoration-color: #0079b3;
 	font-size: 1rem;
 	text-align: left;
 	background-color: whitesmoke;
