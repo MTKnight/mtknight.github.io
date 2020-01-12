@@ -19,8 +19,9 @@ h1 {
 
 h2 {
 	font-family: 'Roboto', sans-serif;
-	font-size: 1.2rem;
+	font-size: 1.5rem;
 	text-align: center;
+	text-decoration-color: #05345e;
 	line-height: 30px;
 	background-color: whitesmoke;
 	border-bottom: 1px solid #bbb;
