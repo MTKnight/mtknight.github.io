@@ -21,14 +21,23 @@
                 <li>Lesson 3: <a href="">Website Planning Document</a></li>
                 <li>Lesson 4: <a href="">Preston Town Page</a></li>
                 <li>Lesson 5: <a href="">Preston Town Page Continued</a></li>
-                <li>Lesson 6:  <a href="">Responsive Images and Font</a></li>
+                <li>Lesson 6: <a href="">Responsive Images and Font</a></li>
                 <li>Lesson 7: <a href="">tba</a></li>
                 <li>Lesson 8: <a href="">Storm Center Page</a></li>
                 <li>Lesson 9: <a href="">The Weather Site Home Page</a></li>
             </ul>
         </main>
-        <footer>© 2019 Marci Godfrey, Nevada, USA | 
-            <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a>
+        <footer>
+            © <span id="currentYear"></span> | Marci Godfrey | Nevada, USA | 
+            <a href="http://www.byui.edu/online" target=|_blank" title="BYU-Idaho Online">BYU-Idaho Online Learning</a>
+            <br />
+            <span class="updated">
+                Last Updated: 
+                <script>
+                    document.write(document.lastModified);
+                    </script>
+            </span>
         </footer>
+        <script src="assignments/lesson-1/getYear.js"></script>
     </body>
 </html>
