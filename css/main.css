@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Poiret+One%&Roboto:300&display=swap");
-
+font-family: 'Poiret One', cursive;
+font-family: 'Roboto', sans-serif;
 *  { margin: 0; box-sizing: border-box; }
 
 body {
