@@ -1,13 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poiret+One|Roboto:300&display=swap');
-
 /* Mobile View*/
-main {
-	display: grid;
-	grid-template-columns: 1fr;
-	margin: auto;
-	grid-gap: 0.8em;
-	padding: 0.8em;
-}
 body {
 	font-size: 16px;
 	line-height: 32px;
@@ -34,6 +25,14 @@ h2 {
 	border-bottom: 1px solid #bbb;
 }
 
+main {
+	display: grid;
+	grid-template-columns: 1fr;
+	margin: auto;
+	grid-gap: 0.8em;
+	padding: 0.8em;
+}
+
 h3 {
 	font-family: 'Roboto', sans-serif;
 	font-size: 1rem;
@@ -44,14 +43,22 @@ h3 {
 	border-bottom: 1px solid #bbb;
 }
 
-section {
-	text-align: left;
-	padding-left: 1em;
-	padding-right: 1em;
+section{
+    background-color: whitesmoke;
+    border: 1px solid;
+    border-color: #05345e;
+    border-radius: 10px;
+}
+
+section p {
+    text-align: left;
+    padding: 0 .5em 0 .5em;
 }
 
 section img{
-	max-width: 90%;
+    max-width: 95%;
+    border: 1px solid;
+    border-color: #b1b1b1;
 }
 
 header, main, footer {
