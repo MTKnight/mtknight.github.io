@@ -20,6 +20,8 @@ h1 {
 	line-height: 45px;
 	color: #cce0f2;
 	background-color: #001823;
+	margin: 0;
+	padding: 0;
 }
 
 h2 {
@@ -30,6 +32,8 @@ h2 {
 	line-height: 30px;
 	background-color: whitesmoke;
 	border-bottom: 1px solid #bbb;
+	margin: 0;
+	padding: 0;
 }
 
 h3 {
