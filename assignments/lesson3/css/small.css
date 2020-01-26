@@ -51,6 +51,11 @@ nav a:hover {
 	color: #160d09;
 }
 
+nav a:active {
+	background-color: #d5d7dd;
+	color: #160d09;
+}
+
 nav ul {
 	list-style-type: none;
 	margin: 0;
@@ -60,7 +65,7 @@ nav ul {
 
 nav li a {
 	display: block;
-	color: #000000;
+	color: #160d09;
 	text-align: center;
 	padding: 0.75em;
 	text-decoration: none;
@@ -82,11 +87,6 @@ section {
     border: 2px solid;
 	border-color: #2b5394;
 	margin-top: 10px;
-}
-
-.active {
-    color: #d5d7dd;
-    background-color: #7dc7ed;
 }
 
 .updated {
