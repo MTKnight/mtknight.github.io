@@ -90,7 +90,7 @@ section {
 }
 
 .palette {
-    max-width: 90%;
+    overflow: hidden;
 }
 
 .updated {
