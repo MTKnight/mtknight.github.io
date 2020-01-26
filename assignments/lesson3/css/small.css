@@ -89,6 +89,10 @@ section {
 	margin-top: 10px;
 }
 
+.palette {
+    max-width: 90%;
+}
+
 .updated {
     color: #60ab5d;
 }
