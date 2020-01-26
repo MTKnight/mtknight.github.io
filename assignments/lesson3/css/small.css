@@ -90,6 +90,12 @@ section {
 }
 
 .palette {
+    padding: 1em;
+    overflow: hidden;
+}
+
+.typography {
+    padding: 0;
     overflow: hidden;
 }
 
