@@ -79,7 +79,7 @@ section img {
 
 section p {
     text-align: left;
-    padding: 0 .5em 0 .5em;
+    padding: 0.5em;
 }
 
 section {
@@ -91,8 +91,4 @@ section {
 
 .updated {
     color: #60ab5d;
-}
-
-.typography {
-    width: 100px;
 }
