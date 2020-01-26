@@ -84,7 +84,7 @@ section {
 	margin-top: 10px;
 }
 
-.current {
+.active {
     color: #d5d7dd;
     background-color: #7dc7ed;
 }
