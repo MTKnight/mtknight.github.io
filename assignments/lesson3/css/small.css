@@ -84,6 +84,10 @@ section {
 	margin-top: 10px;
 }
 
+.current {
+    background-color: #d5d7dd;
+}
+
 .updated {
     color: #60ab5d;
 }
