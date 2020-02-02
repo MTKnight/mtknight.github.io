@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One%7cRoboto:300,500&display=swap');
+body {
+	margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #d5d7dd;
+}
+
+h1 {
+    font-size: 3em;
+    padding-left: 1.7em;
+}
+
+h2 {
+	margin: 3px;
+}
+
+header {
+    line-height: .8em;
+    width: 100%;
+    font-family: 'Poiret One', cursive;
+    padding: 1em;
+    background-color: #2b5394;
+	color: #d5d7dd;
+    margin: auto;
+}
+
+footer {
+	background-color: #d5d7dd;
+	color: #2b5394;
+    margin: auto;
+    width: 100%;
+    padding: 1em;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+main {
+	margin: auto;
+	padding: 0.8em;
+}
+
+nav {
+    background-color: #60ab5d;
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+}
+
+nav a:hover {
+	background-color: #7dc7ed;
+	color: #160d09;
+}
+
+nav a:active {
+	background-color: #d5d7dd;
+	color: #160d09;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav li a {
+	display: block;
+	color: #160d09;
+	text-align: center;
+	padding: 0.75em;
+	text-decoration: none;
+    font-size: 1.5em;
+}
+
+section img {
+    max-width: 100%;
+    padding: 0.5em;
+}
+
+section p {
+    text-align: left;
+    padding: 0.5em;
+}
+
+section {
+    background-color: #ffffff;
+    border: 2px solid;
+	border-color: #2b5394;
+	margin-top: 10px;
+}
+
+.palette {
+    padding: 1em;
+    overflow: hidden;
+}
+
+.typography {
+    padding: 0;
+    overflow: hidden;
+    max-width: 90%;
+}
+
+.updated {
+    color: #60ab5d;
+}
