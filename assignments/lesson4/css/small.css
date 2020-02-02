@@ -3,7 +3,7 @@ body {
 	margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: #d5d7dd;
+    background-color: #e6e9f3;
 }
 
 h1 {
@@ -16,31 +16,39 @@ h2 {
 }
 
 header {
-    line-height: .8em;
-    width: 100%;
     font-family: 'Poiret One', cursive;
-    padding: 1em;
+    padding: 0.2em;
     background-color: #2b5394;
-	color: #d5d7dd;
+    color: #e6e9f3;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin: 0;
 }
 
 footer {
-	background-color: #d5d7dd;
-	color: #2b5394;
+	background-color: #e6e9f3;
+    color: #2b5394;
+    font-family: 'Roboto', sans-serif;
     margin: auto;
     padding: 1em;
     line-height: 1.5em;
     text-align: center;
 }
 
+footer a:link {
+    color: #160d8f;
+}
+
 main {
 	margin: auto;
-	padding: 0.8em;
+    padding: 0.8em;
+    background-color: #e6e9f3;
 }
 
 nav {
     background-color: #60ab5d;
     font-family: 'Poiret One', cursive;
+    font-size: 1.3em;
     text-align: center;
 }
 
@@ -87,17 +95,6 @@ section {
 	margin-top: 10px;
 }
 
-.palette {
-    padding: 1em;
-    overflow: hidden;
-}
-
-.typography {
-    padding: 0;
-    overflow: hidden;
-    max-width: 90%;
-}
-
 .updated {
-    color: #60ab5d;
+    color: #021d01;
 }
