@@ -22,14 +22,12 @@ header {
     padding: 1em;
     background-color: #2b5394;
 	color: #d5d7dd;
-    margin: auto;
 }
 
 footer {
 	background-color: #d5d7dd;
 	color: #2b5394;
     margin: auto;
-    width: 100%;
     padding: 1em;
     line-height: 1.5em;
     text-align: center;
