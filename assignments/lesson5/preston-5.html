@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="description" content="Weather for Preston, ID from SE Idaho Triangle">
+
+    <title>SE Idaho Triangle | Preston, Idaho</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+	<link rel="stylesheet" href="css/medium.css">
+	<link rel="stylesheet" href="css/large.css">
+  </head>
+  <body>
+    <div id="banner">
+		<p>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
+	</div>
+    <header>
+      <img src="images/logo-small.png" alt="small logo">
+      <h1>SE Idaho Triangle</h1>
+      <div class="motto">Up-to-Date Weather for the Southeast Idaho Triangle</div>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776</button>
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/assignments/lesson5/preston-5.html">&#9650 Preston</a></li>
+          <li><a href="/assignments/lesson4/comingsoon.html">&#9650 Soda Springs</a></li>
+          <li><a href="/assignments/lesson4/comingsoon.html">&#9650 Fish Haven</a></li>
+          <li><a href="/assignments/lesson4/comingsoon.html">Storm Center</a></li>
+          <li><a href="/assignments/lesson4/comingsoon.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+          <h2>Preston, Idaho</h2>
+        </section>
+        <h1>Preston Idaho</h1>
+		<div id="hero">
+			<img src="images/jughandle.jpg" alt="autumn tree line against a mountain backdrop">
+			<div id="weatherSummary">
+				<h2>Weather Summary</h2>
+				<div id="currentWeather">
+					<div class="left">Currently:</div>
+					<div class="right">Sunny</div>
+					<div class="left">High:</div>
+					<div class="right">63 &deg;F</div>
+					<div class="left">Wind Chill:</div>
+					<div class="right">2 &deg;F</div>
+					<div class="left">Humidity:</div>
+					<div class="right">24%</div>
+					<div class="left">Wind Speed:</div>
+					<div class="right">5 mph</div>
+				</div>
+			</div>
+		</div>
+		<div id="fiveDay">
+			<h2>5 Day Forecast</h2>
+			<table>
+				<tr>
+					<th>Mon</th>
+					<th>Tue</th>
+					<th>Wed</th>
+					<th>Thur</th>
+					<th>Fri</th>
+				</tr>
+				<tr>
+					<td>
+						<img src="images/sun.ico" alt="sun icon">
+					</td>
+					<td>
+						<img src="images/partial.ico" alt="partial icon">
+					</td>
+					<td>
+						<img src="images/cloudy.ico" alt="cloudy icon">
+					</td>
+					<td>
+						<img src="images/lightning.ico" alt="lightning icon">
+					</td>
+					<td>
+						<img src="images/rain.ico" alt="rain icon">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>80&deg;F</p>
+					</td>
+					<td>
+						<p>53&deg;F</p>
+					</td>
+					<td>
+						<p>50&deg;F</p>
+					</td>
+					<td>
+						<p>76&deg;F</p>
+					</td>
+					<td>
+						<p>63&deg;F</p>
+					</td>
+				</tr>
+			</table>
+		</div>
+    </main>
+    <footer>
+        © SE Idaho Triangle Weather | Attributions | Marci Godfrey
+        <br/>
+        <span class="updated">
+            Last Updated: 
+            <script>document.write(document.lastModified);</script>
+        </span>
+    </footer>
+    <script src="js/banner.js"></script>
+  </body>
+</html>
