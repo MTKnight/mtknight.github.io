@@ -44,24 +44,6 @@
 		left:30px;
 	}
 
-	article img{
-		width:45%;
-		float: right;
-		padding:5px;
-	}
-	img.preview{
-		width:200px;
-	}
-	#contact{
-		display:flex;
-		justify-content: center;
-	}
-
-	#contact img#map{
-		display:block;
-		width:150px;
-		padding:5px;
-	}
 	#fiveDay{
 		display:block;
 	}
