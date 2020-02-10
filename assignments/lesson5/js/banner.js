@@ -11,4 +11,3 @@ function showBanner() {
     console.log(dayname)
 }
 
-

@@ -11,6 +11,8 @@ html {
 	box-sizing: inherit;
 }
 
+
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #e6e9f3;
@@ -175,12 +177,32 @@ table {
 	margin: auto;
 }
 
-.full {
-	display: none;
-}
-
 footer {
  	font-size: .8em;
  	padding:0px;
  	padding-bottom: 10px;
 }
+
+article{
+	background-color: #e6e9f3;
+	padding:10px;
+	margin-top:10px;
+	display: block;
+}
+
+#articleimg{
+	height: 30%;
+	width: 30%;
+	margin-top: 10px;
+	float: right;
+	line-height: 10em;
+}
+
+article p{
+	line-height: 1.5;
+}
+
+article h2{
+	margin-top:5px;
+}
+
