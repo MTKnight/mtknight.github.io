@@ -39,11 +39,15 @@ h1 {
     line-height: 1.5em;
 }
 h2 {
+	color: #e6e9f3;
     background-color: #2b5394;
 	font-size: 1.3em;
 	margin-bottom: 2px;
+	line-height: 1.7em;
 }
+
 h3 {
+	color: #e6e9f3;
 	font-size: .8em;
 	background-color: #2b5394;
 }
