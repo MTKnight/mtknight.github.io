@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	<title>SE Idaho Triangle | Preston, Idaho</title>
+    <meta name="description" content="Weather for Preston, ID from SE Idaho Triangle">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+	<link rel="stylesheet" href="css/medium.css">
+	<link rel="stylesheet" href="css/large.css">
+  </head>
+  <body>
+    <header>
+	  <img src="images/logo-small.png" alt="small logo">
+	  <section id="logo">
+      	<h1>SE Idaho Triangle</h1>
+		  <div class="motto">Up-to-Date Weather for the Southeast Idaho Triangle</div>
+	  </section>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776</button>
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/assignments/lesson5/preston-5.html">&#9650 Preston</a></li>
+          <li><a href="/assignments/lesson4/comingsoon.html">&#9650 Soda Springs</a></li>
+          <li><a href="/assignments/lesson4/comingsoon.html">&#9650 Fish Haven</a></li>
+          <li><a href="/assignments/lesson4/comingsoon.html">Storm Center</a></li>
+          <li><a href="/assignments/lesson4/comingsoon.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Preston Idaho</h1>
+		<div id="hero">
+			<picture>
+				<source media="(max-width: 500px)" srcset="images/herosmall.jpeg">
+				<source media="(max-width: 800px)" srcset="images/heromed.jpeg">
+				<img src="images/herolarge.jpeg" alt="assigned photo">
+			</picture>
+			<div id="weatherSummary">
+				<h2>Weather Summary</h2>
+				<div id="currentWeather">
+					<div class="left">Currently:</div>
+					<div class="right">Sunny</div>
+					<div class="left">High:</div>
+					<div class="right">88 &deg;F</div>
+					<div class="left">Wind Chill:</div>
+					<div class="right">84 &deg;F (-4&deg;F)</div>
+					<div class="left">Humidity:</div>
+					<div class="right">86%</div>
+					<div class="left">Wind Speed:</div>
+					<div class="right">7 mph</div>
+				</div>
+			</div>
+		</div>
+		<div id="fiveDay">
+			<h2>5 Day Forecast</h2>
+			<table>
+				<tr>
+					<th>Mon</th>
+					<th>Tue</th>
+					<th>Wed</th>
+					<th>Thur</th>
+					<th>Fri</th>
+				</tr>
+				<tr>
+					<td>
+						<img src="images/sun.ico" alt="sun icon">
+					</td>
+					<td>
+						<img src="images/partial.ico" alt="partial icon">
+					</td>
+					<td>
+						<img src="images/cloudy.ico" alt="cloudy icon">
+					</td>
+					<td>
+						<img src="images/lightning.ico" alt="lightning icon">
+					</td>
+					<td>
+						<img src="images/rain.ico" alt="rain icon">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<p>86&deg;F</p>
+					</td>
+					<td>
+						<p>78&deg;F</p>
+					</td>
+					<td>
+						<p>71&deg;F</p>
+					</td>
+					<td>
+						<p>59&deg;F</p>
+					</td>
+					<td>
+						<p>62&deg;F</p>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<article> 
+			<h2>Article</h2>
+				<img id="articleimg" src="images/trianglemt.jpg" alt="Calculating Mountains with Triangles">
+				<p>PANGRAMS! Forsaking monastic tradition, twelve jovial friars gave up their vocation for a 
+					questionable existence on the flying trapeze. Sphinx of black quartz, judge my vow. The 
+					five boxing wizards jump quickly. Five quacking zephyrs jolt my wax bed. Crazy Fredrick 
+					bought many very exquisite opal jewels. We promptly judged antique ivory buckles for the 
+					next prize. Jaded zombies acted quaintly but kept driving their oxen forward. </p>
+				<br>
+				<p>And, of course— The quick brown fox jumps over the lazy dog.</p>
+		</article>
+		<div class="contact">
+			<a href="https://www.bing.com/maps?osid=9533b7c3-847e-4282-a2fd-e082763d80fe&cp=42.09706~-111.878474&lvl=16&v=2&sV=2&form=S00027">
+				<img class="map" src="images/Optimized-map.png" alt="map">
+			</a>
+			SE Idaho Triangle<br>
+			70 W. Oneida Ste. 2<br>
+			Preston, ID 83263<br><br>
+			(208) 852-1820<br>
+			contact@seidahotriangle.com<br>
+			<img src="images/facebook.ico" alt="Facebook">
+			<img src="images/twitter.ico" alt="Twitter">
+			<img src="images/youtube.ico" alt="YouTube">
+			<img src="images/pinterest.ico" alt="Pinterest">
+		</div>
+    </main>
+    <footer>
+        © SE Idaho Triangle Weather | Attributions | Marci Godfrey
+        <br/>
+    </footer>
+    <script src="js/banner.js"></script>
+  </body>
+</html>
