@@ -114,74 +114,27 @@ main {
 	margin: auto;
 }
 
-#weatherSummary {
-	background: radial-gradient( #7dc7ed, #2b5394);
-	width: 200px;
-	padding:5px;
-	position: absolute;
-	top: 10px;
-	left:20px;
-	font-size: 90%;
-}
-
-#weatherSummary h2 {
-    margin-top:0;
-    color: #160d09;
-    background-color: #60ab5d;
-}
-
-.left {
-    color: #160d09;
-	text-align: right;
-	font-weight: bold;
-}
-
-.right {
-    color: #e6e9f3;
-}
-
-#currentWeather{
+#gallery {
 	display: grid;
-	grid-template-columns: 50% 50%;
-	gap: 5px;
+	grid-template-columns: 1fr;
+	padding: .75rem;
 }
 
-#hero{
-	position: relative;
+#gallery img {
+	border: 1px;
+	border-color: #2b5394;
+	border-style: solid;
 }
 
-#hero img{
-    position: relative;
-    /*width: 125%;*/
+figure {
+	background-color: #e6e9f3;
+	padding: .5rem;
+	margin: .5rem 0;
 }
-
-#fiveDay{
-	display: none;
-}
-
-#fiveDay th{
-	background-color: #7dc7ed;
-	padding:2px;
-	width:100px;
-}
-
-#fiveDay td{
-    color:#2b5394;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-#fiveDay td img{
-	width:80px;
-	padding:3px;
-}
-
-#fiveDay td p{
-	margin:0;
-}
-
-table {
-	margin: auto;
+figcaption {
+	text-align: center;
+	background-color: #e6e9f3;
+	
 }
 
 footer {
@@ -190,37 +143,3 @@ footer {
  	padding-bottom: 10px;
 }
 
-article{
-	background-color: #e6e9f3;
-	padding:10px;
-	margin-top:10px;
-	display: block;
-}
-
-#articleimg{
-	height: 30%;
-	width: 30%;
-	margin-top: 10px;
-	float: right;
-	line-height: 10em;
-}
-
-article p{
-	line-height: 1.5;
-}
-
-article h2{
-	margin-top:5px;
-}
-
-#contact {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	padding: 5em;
-	text-align: center;
-}
-
-#map {
-	max-width: 300px;
-	max-height: auto;
-}
