@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	<title>SE Idaho Triangle | Preston, Idaho</title>
+    <meta name="description" content="Storm Center from SE Idaho Triangle">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+	<link rel="stylesheet" href="css/medium.css">
+	<link rel="stylesheet" href="css/large.css">
+  </head>
+  <body>
+    <header>
+	  <img src="images/logo-small.png" alt="small logo">
+	  <section id="logo">
+      	<h1>SE Idaho Triangle</h1>
+		  <div class="motto">Up-to-Date Weather for the Southeast Idaho Triangle</div>
+	  </section>
+    </header>
+    <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776</button>
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/assignments/lesson5/preston-5.html">&#9650 Preston</a></li>
+          <li><a href="/assignments/lesson4/comingsoon.html">&#9650 Soda Springs</a></li>
+          <li><a href="/assignments/lesson4/comingsoon.html">&#9650 Fish Haven</a></li>
+          <li><a href="/assignments/lesson8/stormcenter.html">Storm Center</a></li>
+          <li><a href="/assignments/lesson4/comingsoon.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+		<h1>Storm Center</h1>
+		<h4>Report storm conditions in your area here.</h4>
+		<form method="get" action="thanks.html">
+			<fieldset>
+				<legend>Personal Information</legend>
+				<label class="top">Full Name* <input pattern="[A-Z a-z ]{5,}" type="text" name="fullname" required></label>
+				<br>            
+				<label class="top">Phone* <input type="tel" name="phone" required></label>
+				<br>
+				<label class="top">Zip Code* <input type="number" name="zip" required></label>
+				<br>
+				<label class="top">Email (optional)<input type="email" name="email" placeholder="user@email.com" ></label>
+				<br>
+			</fieldset>
+			<fieldset>
+				<legend>Storm Information</legend> 
+				<div>Storm Date</div>                
+				<input type="date" name="date">
+				<br>       
+				<br>
+				<div>Storm Type</div>
+				<label class="sbs"><input type="checkbox" name="flood" value="yes">Flash Flood</label>
+				<label class="sbs"><input type="checkbox" name="hail" value="yes">Hail</label>
+				<label class="sbs"><input type="checkbox" name="hurricane" value="yes">Hurricane</label>
+				<label class="sbs"><input type="checkbox" name="thunderstorm" value="yes">Thunderstorm</label> 
+				<label class="sbs"><input type="checkbox" name="tornado" value="yes">Tornado</label>
+				<br>
+				<div>Storm Severity Rating (1 to 10):</div>
+				<br>1            
+				<input type="range" id="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+				<span id="ratingvalue">10</span>
+				<br>
+				<br>
+				<div>Storm region</div>
+				<select name="type">
+						<option value="">Select Region &#9662;</option>
+					<option value="fishsprings">Fish Springs</option>
+					<option value="preston">Preston</option>
+					<option value="sodasprings">Soda Springs</option>
+				</select>     
+			</fieldset>	
+			<fieldset>
+				<legend>Additional Information</legend>            
+					<div>Are you in danger?</div>
+				<label class="bottom">Yes <input type="radio" name="danger" value="yes"></label>
+				<label class="bottom">No <input type="radio" name="danger" value="no"></label>
+				<label class="bottom">Maybe <input type="radio" name="danger" value="maybe"></label>
+				<br>
+				<br>
+				<div>Additional Comments</div>
+				<input type="textarea" name="authors">	
+			</fieldset>   
+			<input href="thanks.html" type="submit" value="Report Storm"  class="submitBtn">   	
+			</form>
+		<div class="contact">
+			<a href="https://www.bing.com/maps?osid=9533b7c3-847e-4282-a2fd-e082763d80fe&cp=42.09706~-111.878474&lvl=16&v=2&sV=2&form=S00027">
+				<img class="map" src="images/Optimized-map.jpg" alt="map">
+			</a>
+			<br>
+			SE Idaho Triangle<br>
+			70 W. Oneida Ste. 2<br>
+			Preston, ID 83263<br><br>
+			(208) 852-1820<br>
+			contact@seidahotriangle.com<br>
+			<img src="images/facebook.ico" alt="Facebook">
+			<img src="images/twitter.ico" alt="Twitter">
+			<img src="images/youtube.ico" alt="YouTube">
+			<img src="images/pinterest.ico" alt="Pinterest">
+		</div>
+    </main>
+    <footer>
+        © SE Idaho Triangle Weather | Attributions | Marci Godfrey
+        <br/>
+    </footer>
+    <script src="js/banner.js"></script>
+  </body>
+</html>
