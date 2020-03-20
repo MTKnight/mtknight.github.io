@@ -7,6 +7,9 @@
 		font-size: 3em;
 	}
 
+	body {
+		max-width: 60rem;
+	}
 
 	/*** GALLERY ***/
 #gallery {
