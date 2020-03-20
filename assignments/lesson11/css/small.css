@@ -4,19 +4,278 @@ img {
 	max-width: 100%;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e6e9f3;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #7dc7ed;
+}
+
+header.a {
+    max-width: 50%;
+}
+
+header img {
+	max-width: 50%;
+    padding: 5px;
+}
+
+.headertext {
+    align-items: center;
+    flex-direction: row;
+    text-align: left;
+}
+
+.sitename {
+    font-family: 'Poiret One';
+    font-weight: 900;
+    font-size: 3rem;
+    margin-top: .25rem;
+    margin-bottom: .5rem;
+    text-align: left;
+}
+
+.motto {
+    font-family: 'Poiret One';
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: .25rem;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    background-color: #7dc7ed;
+    color: #2b5394; 
+}
+
+#banner {
+    color:#2b5394;
+    background: radial-gradient(#e6e9f3, #e6e9f3, #e012be);
+    border: 1.5px solid  #e012be;
+    text-align: center;
+    font-size:  1.25em;
+	margin:0;
+    padding: 1em;
+}
+
+h1, h2, h3 {
+    font-family: 'Poiret One', cursive;
+	text-align: center;
+}
+
+h1 {
+    background-color: #2b5394;
+    color: #e6e9f3;
+    line-height: 1.5em;
+}
+
+h2 {
+	color: #e6e9f3;
+    background-color: #2b5394;
+	font-size: 1.3em;
+	margin-bottom: 2px;
+	line-height: 1.7em;
+}
+
+h3 {
+	color: #e6e9f3;
+	font-size: .8em;
+	background-color: #2b5394;
+}
+
+h4 {
+	margin-top: 0;
+}
+
+
+
+nav {
+	margin-top: 10px;
+}
+
+nav button {
+	margin:.3rem;
+    background-color: #2b5394;
+    color: #e6e9f3;
+	border:none;
+	font-size: 1.6rem;
+	width:100%;
+	text-align: center;
+	margin:0;
+}
+
+nav ul {
+	list-style-type: none;
+	padding:0;
+	margin:0;
+}
+
+nav ul li a {
+	display: block;
+	padding: .5rem;
+    text-decoration: none;
+    background-color: #2b5394;
+    color: #e6e9f3;
+	border-top: .75px solid  #160d09;
+}
+
+nav ul li a:hover {
+    background-color: #60ab5d;
+	color:#2b5394;
+}
+
+main {
+	margin: auto;
+}
+
+#weatherSummary {
+	background: radial-gradient( #7dc7ed, #2b5394);
+	width: 200px;
+	padding:5px;
+	position: absolute;
+	top: 10px;
+	left:20px;
+	font-size: 90%;
+}
+
+#weatherSummary h2 {
+    margin-top:0;
+    color: #160d09;
+    background-color: #60ab5d;
+}
+
+.left {
+    color: #160d09;
+	text-align: right;
+	font-weight: bold;
+}
+
+.right {
+    color: #e6e9f3;
+}
+
+#currentWeather{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	gap: 5px;
+}
+
+#hero{
+	position: relative;
+}
+
+#hero img{
+    position: relative;
+    /*width: 125%;*/
+}
+
+#fiveDay{
+	display: none;
+}
+
+#fiveDay th{
+	background-color: #7dc7ed;
+	padding:2px;
+	width:100px;
+}
+
+#fiveDay td{
+    color:#2b5394;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#fiveDay td img{
+	width:80px;
+	padding:3px;
+}
+
+#fiveDay td p{
+	margin:0;
+}
+
+table {
+	margin: auto;
+}
+
+footer {
+ 	font-size: .8em;
+ 	padding:0px;
+ 	padding-bottom: 10px;
+}
+
+article{
+	background-color: #e6e9f3;
+	padding:10px;
+	margin-top:10px;
+	display: block;
+}
+
+#articleimg{
+	height: 30%;
+	width: 30%;
+	margin-top: 10px;
+	float: right;
+	line-height: 10em;
+}
+
+article p{
+	line-height: 1.5;
+}
+
+article h2{
+	margin-top:5px;
+}
+
+#contact {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 5em;
+	text-align: center;
+}
+
+#map {
+	max-width: 300px;
+	max-height: auto;
+}
+
 /*** GALLERY ***/
 #gallery {
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     padding: .5rem;
+    text-align: center;
 }
 
 #gallery img {
     border: 1px;
     border-color: #000;
     border-style: solid;
-    width: 100%;
 }
+
+.top-round-rainbow {
+    width: 50%;
+    height: 50%;
+    background: white;
+    border-radius: 4px;
+    background-image: repeating-linear-gradient(to right,
+    #c4e17f 0%, #c4e17f 12.5%,
+    #f7fdca 12.5%, #f7fdca 25%,
+    #fad071 25%, #fad071 37.5%,
+    #f0766b 37.5%, #f0766b 50%,
+    #db9dbe 50%, #db9dbe 62.5%,
+    #c49cdf 62.5%, #c49cdf 75%,
+    #6599e2 75%, #6599e2 87.5%,
+    #61c2e4 87.5%, #61c2e4 100%);
+  }
 
 figure {
     background-color: #efefef;
@@ -27,5 +286,4 @@ figure {
 figcaption {
     text-align: center;
     background-color: #efefef;
-    
 }
