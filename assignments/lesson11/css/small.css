@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poiret+One%7cRoboto:300,500&display=swap');
 
 img {
-	max-width: 100%;
+    max-width: 90%;
 }
 
 body {
@@ -14,10 +14,6 @@ header {
     align-items: center;
     text-align: center;
     background-color: #7dc7ed;
-}
-
-header.a {
-    max-width: 50%;
 }
 
 header img {
@@ -53,6 +49,7 @@ footer {
     text-align: center;
     background-color: #7dc7ed;
     color: #2b5394; 
+    box-sizing: border-box;
 }
 
 #banner {
