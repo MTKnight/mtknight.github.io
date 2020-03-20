@@ -20,6 +20,7 @@
     display: grid;
 	grid-template-columns: repeat(2, .5fr);
 	grid-template-rows: repeat(2, .5fr);
+	grid-gap: 1rem;
 	padding: .5rem;
 	text-align: center;
 }
@@ -31,7 +32,6 @@
 }
 
 .top-round-rainbow {
-    width: 50%;
     height: 50%;
     background: white;
     border-radius: 4px;
@@ -55,5 +55,4 @@ figure {
 figcaption {
     text-align: center;
     background-color: #efefef;
-}
 }

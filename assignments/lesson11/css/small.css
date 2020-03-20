@@ -94,8 +94,6 @@ h4 {
 	margin-top: 0;
 }
 
-
-
 nav {
 	margin-top: 10px;
 }
@@ -246,44 +244,44 @@ article h2{
 	max-height: 95%;
 }
 
-/*** GALLERY ***/
-#gallery {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    padding: .5rem;
-    text-align: center;
-}
-
-#gallery img {
-    border: 1px;
-    border-color: #000;
-    border-style: solid;
-}
-
-.top-round-rainbow {
-    width: 50%;
-    height: 50%;
-    background: white;
-    border-radius: 4px;
-    background-image: repeating-linear-gradient(to right,
-    #c4e17f 0%, #c4e17f 12.5%,
-    #f7fdca 12.5%, #f7fdca 25%,
-    #fad071 25%, #fad071 37.5%,
-    #f0766b 37.5%, #f0766b 50%,
-    #db9dbe 50%, #db9dbe 62.5%,
-    #c49cdf 62.5%, #c49cdf 75%,
-    #6599e2 75%, #6599e2 87.5%,
-    #61c2e4 87.5%, #61c2e4 100%);
-  }
-
-figure {
-    background-color: #efefef;
-    padding: .5rem;
-    margin: .5rem 0;
-}
-
-figcaption {
-    text-align: center;
-    background-color: #efefef;
-}
+	/*** GALLERY ***/
+    #gallery {
+        display: grid;
+        grid-template-columns: repeat(2, .5fr);
+        grid-template-rows: repeat(2, .5fr);
+        grid-gap: 1rem;
+        padding: .5rem;
+        text-align: center;
+    }
+    
+    #gallery img {
+        border: 1px;
+        border-color: #000;
+        border-style: solid;
+    }
+    
+   .top-round-rainbow {
+        height: 50%;
+        background: white;
+        border-radius: 4px;
+        background-image: repeating-linear-gradient(to right,
+        #c4e17f 0%, #c4e17f 12.5%,
+        #f7fdca 12.5%, #f7fdca 25%,
+        #fad071 25%, #fad071 37.5%,
+        #f0766b 37.5%, #f0766b 50%,
+        #db9dbe 50%, #db9dbe 62.5%,
+        #c49cdf 62.5%, #c49cdf 75%,
+        #6599e2 75%, #6599e2 87.5%,
+        #61c2e4 87.5%, #61c2e4 100%);
+      }
+    
+    figure {
+        background-color: #efefef;
+        padding: .5rem;
+        margin: .5rem 0;
+    }
+    
+    figcaption {
+        text-align: center;
+        background-color: #efefef;
+    }

@@ -16,11 +16,11 @@
     display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: repeat(3, 1fr);
+	grid-gap: 1rem;
 	column-fill: balance;
     padding: .5rem;
 	margin-left: 1rem;
 	text-align: center;
-	align-items: center;
 }
 
 #gallery img {
@@ -30,7 +30,6 @@
 }
 
 .top-round-rainbow {
-    width: 67%;
     height: 50%;
     background: white;
     border-radius: 4px;
