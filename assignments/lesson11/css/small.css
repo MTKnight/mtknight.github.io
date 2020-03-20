@@ -3,3 +3,29 @@
 img {
 	max-width: 100%;
 }
+
+/*** GALLERY ***/
+#gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: .5rem;
+}
+
+#gallery img {
+    border: 1px;
+    border-color: #000;
+    border-style: solid;
+    width: 100%;
+}
+
+figure {
+    background-color: #efefef;
+    padding: .5rem;
+    margin: .5rem 0;
+}
+
+figcaption {
+    text-align: center;
+    background-color: #efefef;
+    
+}
