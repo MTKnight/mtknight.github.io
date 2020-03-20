@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-	<title>SE Idaho Triangle | Preston, Idaho</title>
-    <meta name="description" content="Weather for Preston, ID from SE Idaho Triangle">
+	<title>SE Idaho Triangle | Weather Gallery</title>
+    <meta name="description" content="Weather Gallery from SE Idaho Triangle">
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel="stylesheet" href="css/small.css">
@@ -15,56 +15,56 @@
     <nav class="clearfix">
         <button onclick="toggleMenu()">&#9776</button>
         <ul id="menu">
-          <li><a href="/index.html">Home</a></li>
-          <li><a href="/assignments/lesson5/preston-5.html">&#9650 Preston</a></li>
-          <li><a href="/assignments/lesson4/comingsoon.html">&#9650 Soda Springs</a></li>
-          <li><a href="/assignments/lesson4/comingsoon.html">&#9650 Fish Haven</a></li>
-          <li><a href="/assignments/lesson4/comingsoon.html">Storm Center</a></li>
-          <li><a href="/assignments/lesson4/comingsoon.html">Gallery</a></li>
+          <li><a href="/assignments/lesson11/index.html">Home</a></li>
+          <li><a href="/assignments/lesson11/preston.html">&#9650 Preston</a></li>
+          <li><a href="/assignments/lesson11/soda.html">&#9650 Soda Springs</a></li>
+          <li><a href="/assignments/lesson11/fish.html">&#9650 Fish Haven</a></li>
+          <li><a href="/assignments/lesson11/storm.html">Storm Center</a></li>
+          <li><a href="/assignments/lesson11/gallery.html">Gallery</a></li>
         </ul>
     </nav>
     <h2>Weather Gallery</h2>
     <div id="gallery">
         <figure>
-            <img src="images/gallery/placeholder.jpg" data-src="images/gallery/vegascloudy.jpg" alt="Clouds Cling to Red Rock">
+            <img src="images/gallery/vegascloudy.jpg" alt="Clouds Cling to Red Rock">
             <figcaption>Clouds Cling to Red Rock</figcaption>
         </figure>
         <figure>
-            <img src="images/gallery/placeholder.jpg" data-src="images/gallery/vegasdustdevil.jpg" alt="Dust Devil by Vegas Sign">
+            <img src="images/gallery/vegasdustdevil.jpg" alt="Dust Devil by Vegas Sign">
             <figcaption>Dust Devil by Vegas Sign"</figcaption>
         </figure>
         <figure>
-            <img src="images/gallery/placeholder.jpg" data-src="images/gallery/vegasflooding.jpg" alt="Flooding in Downtown Las Vegas">
+            <img src="images/gallery/vegasflooding.jpg" alt="Flooding in Downtown Las Vegas">
             <figcaption>Flooding in Downtown Las Vegas</figcaption>
         </figure>
-        <figure>
+        <figure class="lazy">
             <img src="images/placeholder.jpg" data-src="images/gallery/vegashailstorm.jpg" alt="Hailstorm Pelts Las Vegas">
             <figcaption>Hailstorm Pelts Las Vegas</figcaption>
         </figure>
-        <figure>
+        <figure class="lazy">
             <img src="images/gallery/placeholder.jpg" data-src="images/gallery/vegaslightning.jpg" alt="Lightning Strikes in Las Vegas">
             <figcaption>Lightning Strikes in Las Vegas</figcaption>
         </figure>
-        <figure>
+        <figure class="lazy">
             <img src="images/gallery/placeholder.jpg" data-src="images/gallery/vegasmicroburst.jpg" alt="A Microburst Over Las Vegas">
             <figcaption>A Microburst Over Las Vegas</figcaption>
         </figure>
-        <figure>
+        <figure class="lazy">
             <img src="images/gallery/placeholder.jpg" data-src="images/gallery/vegassnow.jpg" alt="Snowfall in Vegas">
             <figcaption>Snowfall in Vegas</figcaption>
         </figure>
-        <figure>
+        <figure class="lazy">
             <img src="images/gallery/placeholder.jpg" data-src="images/gallery/vegassunny.jpg" alt="Sunny Day in Las Vegas">
             <figcaption>Sunny Day in Las Vegas</figcaption>
         </figure>
-        <figure>
+        <figure class="lazy">
             <img src="images/gallery/placeholder.jpg" data-src="images/gallery/vegassunset.jpg" alt="Las Vegas Sunset">
             <figcaption>Las Vegas Sunset</figcaption>
         </figure>
         </div>
     </main>
     <footer>
-        © SE Idaho Triangle Weather | Attributions | Marci Godfrey
+        ©<span id="currentyear"></span> SE Idaho Triangle Weather | Marci Godfrey
         <br/>
     </footer>
     <script src="js/lazyload.js"></script>

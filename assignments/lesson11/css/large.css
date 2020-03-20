@@ -1,0 +1,22 @@
+@media only screen and (min-width: 64rem){
+	nav ul li a{
+		padding: .6rem 1rem;
+	}
+
+	h1{
+		font-size: 3em;
+	}
+
+	main, footer{
+		max-width: 60rem;
+	}
+
+	header img{
+		width:30%;
+	}
+
+	#gallery {
+		grid-gap: 1rem;
+		grid-template-columns: 1fr 1fr;
+	}
+}
