@@ -107,8 +107,8 @@ nav {
 }
 
 nav button {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 50%;
+    margin-right: 50%;
     background-color: transparent;
     color: #e6e9f3;
 	border:none;
