@@ -134,13 +134,19 @@ h2 {
 }
 
 h3 {
-	color: #e6e9f3;
-	font-size: .8em;
-	background-color: #2b5394;
+	font-size: 2em;
+	color: #2b5394;
 }
 
 h4 {
 	margin-top: 0;
+}
+
+.towns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    text-align: center;
 }
 
 main {
