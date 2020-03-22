@@ -177,6 +177,11 @@ main {
     /*width: 125%;*/
 }
 
+.city-image {
+    height: 1500px;
+    width: 150%;
+}
+
 #fiveDay{
 	display: none;
 }
