@@ -4,16 +4,29 @@
 		margin-left: .3rem;
 	}
 
-	nav button { display: none; }
-	nav ul { display: flex;	}
-	nav ul.hide { display: flex; }
-	nav ul li { flex: 1 1 100%; }
-	nav ul li a {
-		border: none;
-        font-size: .8rem;
-        text-align: center;
-        white-space: nowrap;
-	}
+/*** MENU ***/
+nav button { 
+    display: none; 
+}
+
+nav ul { 
+    display: flex;	
+}
+
+nav ul.hide { 
+    display: flex; 
+}
+
+nav ul li { 
+    flex: 1 1 100%; 
+}
+
+nav ul li a {
+    border: none;
+    font-size: .8rem;
+    text-align: center;
+    white-space: nowrap;
+}
 
 main {
 	max-width: 60rem;

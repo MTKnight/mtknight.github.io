@@ -7,6 +7,9 @@
 		font-size: 3em;
 	}
 
+	nav ul li a { font-size: 1rem; }
+	nav button { display: none; }
+
 	main {
 		max-width: 60rem;
 	}

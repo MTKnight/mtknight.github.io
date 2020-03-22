@@ -11,6 +11,7 @@ main {
     align-self: start;
 }
 
+/*** HEADER/LOGO ***/
 header {
     display: flex;
     flex-direction: row;
@@ -50,6 +51,9 @@ header img {
     text-align: left;
 }
 
+
+
+/*** FOOTER ***/
 footer {
     text-align: center;
     background-color: #7dc7ed;
@@ -98,36 +102,43 @@ h4 {
 }
 
 nav {
-	margin-top: 10px;
+    clear: left;
+    background-color: #2b5394;
 }
 
 nav button {
-	margin:.3rem;
-    background-color: #2b5394;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
     color: #e6e9f3;
 	border:none;
-	font-size: 1.6rem;
-	width:100%;
-	text-align: center;
-	margin:0;
+    font-size: 1.6rem;
 }
 
 nav ul {
 	list-style-type: none;
 	padding:0;
-	margin:0;
+    margin:0;
+    overflow: hidden;
 }
 
-nav ul li a {
+nav ul.hide {
+    display: none;
+}
+
+nav li a {
 	display: block;
 	padding: .5rem;
     text-decoration: none;
-    background-color: #2b5394;
     color: #e6e9f3;
-	border-top: .75px solid  #160d09;
 }
 
-nav ul li a:hover {
+nav a:hover {
+    background-color: #60ab5d;
+	color:#2b5394;
+}
+
+.active {
     background-color: #60ab5d;
 	color:#2b5394;
 }
