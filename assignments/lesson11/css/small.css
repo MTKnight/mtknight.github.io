@@ -51,56 +51,7 @@ header img {
     text-align: left;
 }
 
-
-
-/*** FOOTER ***/
-footer {
-    text-align: center;
-    background-color: #7dc7ed;
-    color: #2b5394; 
-    box-sizing: border-box;
-    margin-top: 2px;
-}
-
-#banner {
-    color:#2b5394;
-    background: radial-gradient(#e6e9f3, #e6e9f3, #e012be);
-    border: 1.5px solid  #e012be;
-    text-align: center;
-    font-size:  1.25em;
-	margin:0;
-    padding: 1em;
-}
-
-h1, h2, h3 {
-    font-family: 'Poiret One', cursive;
-	text-align: center;
-}
-
-h1 {
-    background-color: #2b5394;
-    color: #e6e9f3;
-    line-height: 1.5em;
-}
-
-h2 {
-	color: #e6e9f3;
-    background-color: #2b5394;
-	font-size: 1.3em;
-	margin-bottom: 2px;
-	line-height: 1.7em;
-}
-
-h3 {
-	color: #e6e9f3;
-	font-size: .8em;
-	background-color: #2b5394;
-}
-
-h4 {
-	margin-top: 0;
-}
-
+/*** MENU ***/
 nav {
     clear: left;
     background-color: #2b5394;
@@ -143,6 +94,55 @@ nav a:hover {
 	color:#2b5394;
 }
 
+/*** FOOTER ***/
+footer {
+    text-align: center;
+    background-color: #7dc7ed;
+    color: #2b5394; 
+    box-sizing: border-box;
+    margin-top: 2px;
+}
+
+/*** ALERTS ***/
+#banner {
+    color:#2b5394;
+    background: radial-gradient(#e6e9f3, #e6e9f3, #e012be);
+    border: 1.5px solid  #e012be;
+    text-align: center;
+    font-size:  1.25em;
+	margin:0;
+    padding: 1em;
+}
+
+h1, h2, h3 {
+    font-family: 'Poiret One', cursive;
+	text-align: center;
+}
+
+h1 {
+    background-color: #2b5394;
+    color: #e6e9f3;
+    line-height: 1.5em;
+}
+
+h2 {
+	color: #e6e9f3;
+    background-color: #2b5394;
+	font-size: 1.3em;
+	margin-bottom: 2px;
+	line-height: 1.7em;
+}
+
+h3 {
+	color: #e6e9f3;
+	font-size: .8em;
+	background-color: #2b5394;
+}
+
+h4 {
+	margin-top: 0;
+}
+
 main {
 	margin: auto;
 }
@@ -180,7 +180,8 @@ main {
 }
 
 #hero{
-	position: relative;
+    position: relative;
+    margin-left: 10%;
 }
 
 #hero img{
