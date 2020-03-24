@@ -258,7 +258,8 @@ article{
 	width: 30%;
 	margin-top: 10px;
 	float: right;
-	line-height: 10em;
+    line-height: 10em;
+    padding: 18px;
 }
 
 article p{
