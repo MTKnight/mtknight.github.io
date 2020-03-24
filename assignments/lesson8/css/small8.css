@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Poiret+One%7cRoboto:300,500&display=swap');
+
+img{
+	max-width: 100%;
+}
+
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e6e9f3;
+}
+
+h1, h2, h3 {
+    font-family: 'Poiret One', cursive;
+	text-align: center;
+}
+
+h1 {
+    background-color: #2b5394;
+    color: #e6e9f3;
+    line-height: 1.5em;
+}
+
+h2 {
+	color: #e6e9f3;
+    background-color: #2b5394;
+	font-size: 1.3em;
+	margin-bottom: 2px;
+	line-height: 1.7em;
+}
+
+h3 {
+	color: #e6e9f3;
+	font-size: .8em;
+	background-color: #2b5394;
+}
+
+h4 {
+	margin-top: 0;
+	text-align: center;
+}
+
+header, footer {
+	background-color: #7dc7ed;
+	text-align: center;
+    color: #2b5394;  
+}
+
+header img {
+	max-width: 75%;
+	padding:10px;
+}
+
+header #motto {
+    font-family: 'Poiret One';
+    font-size: 1.5em;
+}
+
+section #logo {
+	display: flex;
+	text-align: left;
+}
+
+nav {
+	margin-top: 10px;
+}
+
+nav button {
+	margin:.3rem;
+    background-color: #2b5394;
+    color: #e6e9f3;
+	border:none;
+	font-size: 1.6rem;
+	width:100%;
+	text-align: center;
+	margin:0;
+}
+
+nav ul {
+	list-style-type: none;
+	padding:0;
+	margin:0;
+}
+
+nav ul li a {
+	display: block;
+	padding: .5rem;
+    text-decoration: none;
+    background-color: #2b5394;
+    color: #e6e9f3;
+	border-top: .75px solid  #160d09;
+}
+
+nav ul li a:hover {
+    background-color: #60ab5d;
+	color:#2b5394;
+}
+
+main {
+	margin: auto;
+}
+
+main form {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-gap: 15px;
+	margin:auto;
+	padding: 15px;
+	max-width: 350px;
+	text-align: left;
+}
+
+fieldset {
+	border: 2px solid #160d09;
+}
+
+footer {
+ 	font-size: .8em;
+ 	padding:0px;
+ 	padding-bottom: 10px;
+}
+

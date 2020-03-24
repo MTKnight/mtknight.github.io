@@ -291,6 +291,15 @@ fieldset {
     font-weight: bold;
 }
 
+#breakword {
+    word-wrap: break-word;
+}
+
+.inputbox {
+    background-color: #ffffff;
+	border: .75px solid #160d09;
+}
+
 /*** GALLERY ***/
     #gallery {
         display: grid;
