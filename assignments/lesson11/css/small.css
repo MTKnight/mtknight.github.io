@@ -89,9 +89,8 @@ nav a:hover {
 	color:#2b5394;
 }
 
-.active {
-    background-color: #60ab5d;
-	color:#2b5394;
+nav a:active {
+    text-decoration: overline underline;
 }
 
 /*** FOOTER ***/
