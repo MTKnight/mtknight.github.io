@@ -211,8 +211,8 @@ main {
     width: 150%;
 }
 
-#fiveDay{
-	display: none;
+@media all and (max-width: 400px) {
+    #fiveDay { display: none; }
 }
 
 #fiveDay th{
