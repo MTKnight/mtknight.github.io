@@ -10,7 +10,7 @@ fetch(requestURL)
 	
     towns.forEach(hometown => {
       var card = document.createElement('section');
-      var name = document.createElement('h3');
+      var name = document.createElement('h6');
       var moto = document.createElement('h4');
       var year = document.createElement('p');
       var population = document.createElement('p');

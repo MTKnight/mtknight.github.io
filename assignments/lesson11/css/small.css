@@ -114,6 +114,7 @@ footer {
     padding: 1em;
 }
 
+
 h1, h2, h3 {
     font-family: 'Poiret One', cursive;
 	text-align: center;
@@ -139,7 +140,18 @@ h3 {
 }
 
 h4 {
-	margin-top: 0;
+    margin-top: -3em;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: .95em;
+}
+
+h6 {
+    font-family: 'Poiret One', cursive;
+	text-align: center;
+    margin-top: -1em;
+	font-size: 2em;
+	color: #2b5394;
 }
 
 .towns {
