@@ -33,9 +33,9 @@
     <main>
 		<h1>Storm Center</h1>
 		<h5>Report storm conditions in your area here.</h5>
-		<form method="get" action="thanks.html">
+		<form method="get">
 			<fieldset>
-				<legend>Personal Information</legend>
+				<legend>  Personal Information  </legend>
 				<label class="top">Full Name* <br> <input pattern="[A-Z a-z ]{5,}" type="text" name="fullname" required></label>
 				<br>    
 				<br>        
@@ -49,7 +49,7 @@
 				<br>
 			</fieldset>
 			<fieldset>
-				<legend>Storm Information</legend> 
+				<legend>  Storm Information  </legend> 
 				<div>Storm Date</div>                
 				<input type="date" name="date">
 				<br>       
@@ -80,17 +80,17 @@
 				</select>     
 			</fieldset>	
 			<fieldset>
-				<legend>Additional Information</legend>            
+				<legend>  Additional Information  </legend>            
 					<div>Are you in danger?</div>
-				<label class="bottom"> <input type="radio" name="danger" value="yes"> Yes </label>
-				<br>
-				<label class="bottom"> <input type="radio" name="danger" value="no"> No </label>
-				<br>
-				<label class="bottom"> <input type="radio" name="danger" value="maybe"> Maybe </label>
-				<br>
-				<br>
-				<div>Additional Comments</div>
-				<input type="textarea" name="authors">	
+						<label class="bottom"> <input type="radio" name="danger" value="yes"> Yes </label>
+						<br>
+						<label class="bottom"> <input type="radio" name="danger" value="no"> No </label>
+						<br>
+						<label class="bottom"> <input type="radio" name="danger" value="maybe"> Maybe </label>
+						<br>
+						<br>
+					<div>Additional Comments</div>
+						<input type="textarea" name="authors">	
 			</fieldset>   
 			<input type="submit" value="Report Storm"  class="submit">   	
 			</form>
