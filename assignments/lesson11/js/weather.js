@@ -2,13 +2,13 @@ const appid = "d828b9bbd5a4d69655f7f329aa88e0c8";
 var id = "";
 
 switch(document.getElementById('townname').innerHTML) {
-  case "Fish Haven Idaho":
+  case "Fish Haven, Idaho":
     id = "5585010";
     break;
-  case "Preston Idaho":
+  case "Preston, Idaho":
     id = "5604473";
     break;
-  case "Soda Springs Idaho":
+  case "Soda Springs, Idaho":
     id = "5607916";
     break;
 }

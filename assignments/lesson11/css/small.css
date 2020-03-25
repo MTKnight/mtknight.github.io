@@ -235,6 +235,12 @@ main {
 	margin:0;
 }
 
+h7 {
+    margin: .1em;
+    margin-left: auto;
+    line-height: 1em;
+}
+
 table {
 	margin: auto;
 }
