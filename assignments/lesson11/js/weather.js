@@ -18,9 +18,11 @@ fetch(weather)
   .then((response) => response.json())
   .then((jsObject) => {
     document.getElementById('currently').textContent = jsObject.weather[0].main;
-    document.getElementById('high').innerHTML = parseFloat(jsObject.main.temp).toFixed(0) + "&#8457;";
+    document.getElementById('current').innerHTML = parseFloat(jsObject.main.temp).toFixed(0) + "&#8457;";
+    document.getElementById('high').innerHTML = parseFloat(jsObject.main.temp_max).toFixed(0) + "&#8457;";
+    document.getElementById('low').innerHTML = parseFloat(jsObject.main.temp_min).toFixed(0) + "&#8457;";
     document.getElementById('humidity').innerHTML = jsObject.main.humidity + "&percnt;";
-    document.getElementById('windSpeed').textContent = jsObject.wind.speed + " mph";
+    document.getElementById('windSpeed').textContent = parseFloat(jsObject.wind.speed).toFixed(1) + "mph";
   });
 
 const forecast = `https://api.openweathermap.org/data/2.5/forecast?id=${id}&units=imperial&APPID=${appid}`;
