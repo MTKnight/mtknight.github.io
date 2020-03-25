@@ -279,11 +279,18 @@ table {
 
 
 /*** ARTICLES ***/
-article{
+article {
 	background-color: #e6e9f3;
 	padding:10px;
 	margin-top:10px;
 	display: block;
+}
+
+.upcoming {
+    margin: auto;
+    width: 53%;
+    color: #160d09;
+    background-color: #60ab5d;
 }
 
 #articleimg{
