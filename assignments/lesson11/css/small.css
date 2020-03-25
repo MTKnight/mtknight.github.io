@@ -89,7 +89,7 @@ nav a:hover {
 	color:#2b5394;
 }
 
-nav a:active {
+.active {
     text-decoration: overline underline;
 }
 
@@ -100,6 +100,8 @@ footer {
     color: #2b5394; 
     box-sizing: border-box;
     margin-top: 2px;
+    font-size: .8em;
+    padding-bottom: 10px;
 }
 
 /*** ALERTS ***/
@@ -274,12 +276,8 @@ table {
 	margin: auto;
 }
 
-footer {
- 	font-size: .8em;
- 	padding:0px;
- 	padding-bottom: 10px;
-}
 
+/*** ARTICLES ***/
 article{
 	background-color: #e6e9f3;
 	padding:10px;
