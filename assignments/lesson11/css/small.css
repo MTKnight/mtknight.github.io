@@ -188,6 +188,7 @@ main {
 
 .right {
     color: #e6e9f3;
+    text-align: left;
 }
 
 #currentWeather{
@@ -237,7 +238,6 @@ main {
 
 h7 {
     margin: .1em;
-    margin-left: auto;
     line-height: 1em;
 }
 
