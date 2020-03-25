@@ -399,7 +399,14 @@ fieldset {
 
     .map {
         border: 2px;
+        border-style: solid;
         border-color: #2b5394;
+    }
+
+    .map:hover {
+        border: 4px;
+        border-style: solid;
+        border-color: #60ab5d;
     }
 
     .info {
