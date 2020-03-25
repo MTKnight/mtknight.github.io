@@ -27,7 +27,7 @@ const forecast = `https://api.openweathermap.org/data/2.5/forecast?id=${id}&unit
 fetch(forecast)
   .then((response) => response.json())
   .then((jsObject) => {
-    var days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
+    var days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
     var fiveday = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'));
 
     for (var i=0; i<fiveday.length; i++) {
