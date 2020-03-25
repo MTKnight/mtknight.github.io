@@ -236,6 +236,11 @@ main {
 	margin:0;
 }
 
+.week {
+    display: flex;
+    flex-direction: row;
+}
+
 h7 {
     margin: .1em;
     line-height: 1em;
