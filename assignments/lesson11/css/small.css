@@ -237,8 +237,32 @@ main {
 }
 
 .week {
-    display: flex;
+	display: flex;
     flex-direction: row;
+    margin-left: 10%;
+    width: 80%;
+}
+
+.day {
+	flex: 1 1 100%;
+    font-size: .7rem;
+    justify-content: center;
+}
+
+.label {
+    color:  #7dc7ed;
+	background-color:#2b5394;
+    display: block;
+    font-family: 'Poiret One', cursive;
+    font-size: 1rem;
+    text-align: center;
+	padding: .3rem;
+}
+
+.temp {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25em;
+    color: #160d09;
 }
 
 h7 {
