@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	<title>SE Idaho Triangle | Preston, Idaho</title>
+    <meta name="description" content="Weather for Preston, ID from SE Idaho Triangle">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+	<link rel="stylesheet" href="css/medium.css">
+	<link rel="stylesheet" href="css/large.css">
+  </head>
+  <body>
+    <header>
+        <a href="/assignments/lesson11/index.html"><img src="images/logo-small.png" alt="logo"></a>
+        <div class="headertext">
+      	    <p class="sitename">SE Idaho Triangle</p>
+            <p class="motto">Up-to-Date Weather for the Southeast Idaho Triangle</p>
+        </div>
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">&#9776;</button>
+        <ul id="menu" class="hide">
+          <li><a href="/assignments/lesson11/index.html">Home</a></li>
+          <li><a href="#" class="active">&#9650; Preston &#9650;</a></li>
+          <li><a href="/assignments/lesson11/soda.html">Soda Springs</a></li>
+          <li><a href="/assignments/lesson11/fish.html">Fish Haven</a></li>
+          <li><a href="/assignments/lesson11/storm.html">Storm Center</a></li>
+          <li><a href="/assignments/lesson11/gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1 id="townname">Preston, Idaho</h1>
+		<div id="hero">
+			<picture class="city-image">
+				<img src="images/preston.jpg" alt="preston">
+			</picture>
+			<div id="weatherSummary">
+				<h2>Weather Summary</h2>
+				<div id="currentWeather">
+					<h7 class="left">Currently:</h7>
+					<h7 class="right"><span id="current"></span>, <span id="currently"></span></h7>
+					<h7 class="left">High:</h7>
+					<h7 class="right"><span id="high"></span></h7>
+					<h7 class="left">Low:</h7>
+					<h7 class="right"><span id="low"></span></h7>
+					<h7 class="left">Wind Chill:</h7>
+					<h7 class="right"><span id="windChill"></span></h7>
+					<h7 class="left">Humidity:</h7>
+					<h7 class="right"><span id="humidity"></span></h7>
+					<h7 class="left">Wind Speed:</h7>
+					<h7 class="right"><span id="windSpeed"></span></h7>
+				</div>
+			</div>
+		</div>
+		<div id="fiveDay">
+			<h2>5 Day Forecast</h2>
+			<table>
+				<tr>
+					<th class="day">
+						<span id="day0" class="label"></span>
+              			<img id="icon0" src="#" alt="">
+              			<span id="temp0" class="temp"></span>
+					</th>
+					<th class="day">
+						<span id="day1" class="label"></span>
+              			<img id="icon1" src="#" alt="">
+              			<span id="temp1" class="temp"></span>
+					</th>
+					<th class="day">
+						<span id="day2" class="label"></span>
+              			<img id="icon2" src="#" alt="">
+              			<span id="temp2" class="temp"></span>
+					</th>
+					<th class="day">
+						<span id="day3" class="label"></span>
+              			<img id="icon3" src="#" alt="">
+              			<span id="temp3" class="temp"></span>
+					</th>
+					<th class="day">
+						<span id="day4" class="label"></span>
+              			<img id="icon4" src="#" alt="">
+              			<span id="temp4" class="temp"></span>
+					</th>
+				</tr>
+			</table>
+		</div>
+		<article> 
+			<h2>Article: PANGRAMS!</h2>
+				<img id="articleimg" src="images/pangram.JPG" alt="Pangram">
+				<p>PANGRAMS! Forsaking monastic tradition, twelve jovial friars gave up their vocation for a 
+					questionable existence on the flying trapeze. Sphinx of black quartz, judge my vow. The 
+					five boxing wizards jump quickly. Five quacking zephyrs jolt my wax bed. Crazy Fredrick 
+					bought many very exquisite opal jewels. We promptly judged antique ivory buckles for the 
+					next prize. Jaded zombies acted quaintly but kept driving their oxen forward. </p>
+				<p>And, of course— The quick brown fox jumps over the lazy dog.</p>
+				<p>Eachdraidh an sgadain, tha fhios againn air an fhacal fhèin sgadan, skat fisk a’ ciallachadh 
+					gun robh, aig aon àm, Àm nan Lochlannach, bha daoine a’ pàigheadh màl à skat, sgadan skat. 
+					Tha skat a’ ciallachadh iasg a bha daoine a’ pàigheadh, bha iad a’ pàigheadh màl leis an iasg 
+					a bha sin, saillte no ùr, chan eil sinn buileach cinnteach, ach ‘s e sin a’ chiad rud mu 
+					dheidhinn eachdraidh an èisg a tha seo.</p>
+		</article>
+		<div class="top-round-rainbow">
+			<br>
+		</div>
+		<div class="contact">
+			<a href="https://www.bing.com/maps?osid=9533b7c3-847e-4282-a2fd-e082763d80fe&cp=42.09706~-111.878474&lvl=16&v=2&sV=2&form=S00027">
+				<img class="map" src="images/Optimized-map.png" alt="map">
+			</a>
+			<div class="info">
+			SE Idaho Triangle<br>
+			70 W. Oneida Ste. 2<br>
+			Preston, ID 83263<br><br>
+			(208) 852-1820<br>
+			contact@seidahotriangle.com<br><br>
+			<img class="icon" src="images/facebook.ico" alt="Facebook">
+			<img class="icon" src="images/twitter.ico" alt="Twitter">
+			<img class="icon" src="images/youtube.ico" alt="YouTube">
+			<img class="icon" src="images/pinterest.ico" alt="Pinterest">
+			</div>
+		</div>
+    </main>
+    <footer>
+        <br>
+		©<span id="currentyear"></span> | SE Idaho Triangle Weather | Marci Godfrey<br>
+		Weather Data provided by <a href="https://openweathermap.org/">Open Weather Map</a>
+        <br>
+	</footer>
+	<script src="js/weather.js"></script>
+	<script src="js/windchill.js"></script>
+	<script src="js/footer.js"></script>
+	<script src="js/menu.js"></script>
+  </body>
+</html>
