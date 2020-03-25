@@ -395,6 +395,7 @@ fieldset {
 	    grid-template-columns: 1fr 1fr;
 	    padding: 5em;
         text-align: center;
+        background-color: #e6e9f3;
     }
 
     .map {
@@ -405,7 +406,6 @@ fieldset {
     .info {
         margin-top: auto;
         margin-bottom: auto;
-        background-color: #e6e9f3;
     }
 
     .icon {
