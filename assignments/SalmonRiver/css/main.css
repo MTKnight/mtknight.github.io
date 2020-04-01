@@ -1,27 +1,25 @@
-@import url('https://fonts.googleapis.com/css?family=Bellota%&Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bellota|Montserrat&display=swap');
 
 main {
-    font-family: 'Montserrat', sans-serif;
     background-color: #e1f4f3;
     max-width: 60rem;
     align-self: start;
+    width: 90%;
+    align-items: center;
 }
 
 /*** HEADER ***/
 header {
     font-family: 'Bellota', cursive;
-    color: #232323;
+    color: #0f1618;
     background-image: url("https://mtknight.github.io/assignments/SalmonRiver/images/headerbackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: row;
     justify-content: center;
     justify-items: center;
     align-items: center;
-}
-
-header img {
-	max-width: 70%;
-    padding: 15px;
 }
 
 .headertext {
@@ -31,14 +29,14 @@ header img {
 
 .sitename {
     font-family: 'Bellota', cursive;
-    font-size: 3rem;
+    font-size: 4rem;
     margin-top: .25rem;
     margin-bottom: .5rem;
 }
 
 .motto {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     margin-top: .25rem;
     margin-bottom: 1rem;
 }
@@ -53,7 +51,6 @@ nav {
 
 nav button {
     margin-left: 50%;
-    margin-right: 50%;
     background-color: transparent;
     color: #e1f4f3;
 	border:none;
@@ -86,4 +83,64 @@ nav a:hover {
 .active {
     background-color: #706c61;
 	color:#e1f4f3;
+}
+
+/*** FOOTER ***/
+footer {
+    padding: 20px;
+}
+
+/*** MEDIUM ***/
+@media only screen and (min-width: 35rem) {
+	.headings h1 {
+		font-size: 2rem;
+		margin-left: .3rem;
+	}
+
+    /*** MENU ***/
+    nav button { 
+        display: none; 
+    }
+
+    nav ul { 
+        display: flex;	
+    }
+
+    nav ul.hide { 
+        display: flex; 
+    }
+
+    nav ul li { 
+        flex: 1 1 100%; 
+    }
+
+    nav ul li a {
+        border: none;
+        font-size: .8rem;
+        text-align: center;
+        white-space: nowrap;
+    }   
+}
+
+/*** LARGE ***/
+@media only screen and (min-width: 64rem) {
+	nav ul li a {
+		padding: .6rem 1rem;
+	}
+
+	h1 {
+		font-size: 3em;
+	}
+
+	nav ul li a { 
+        font-size: 1rem; 
+    }
+
+	nav button { 
+        display: none; 
+    }
+
+	main {
+		max-width: 60rem;
+	}
 }
