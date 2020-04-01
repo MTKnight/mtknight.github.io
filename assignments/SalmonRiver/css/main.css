@@ -11,7 +11,7 @@ main {
 /*** HEADER ***/
 header {
     font-family: 'Bellota', cursive;
-    color: #0f1618;
+    color: #070d12;
     background-image: url("https://mtknight.github.io/assignments/SalmonRiver/images/headerbackground.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,14 +45,14 @@ header {
 /*** MENU ***/
 nav {
     clear: left;
-    background-color: #333333;
+    background-color: #93b6d2;
     margin-top: -1rem;
 }
 
 nav button {
     margin-left: 50%;
     background-color: transparent;
-    color: #e1f4f3;
+    color: #ffffff;
 	border:none;
     font-size: 1.6rem;
 }
@@ -72,17 +72,17 @@ nav li a {
 	display: block;
 	padding: .5rem;
     text-decoration: none;
-    color: #e1f4f3;
+    color: #ffffff;
 }
 
 nav a:hover {
-    background-color: #706c61;
-	color:#e1f4f3;
+    background-color: #4b86b4;
+	color:#ffffff;
 }
 
 .active {
-    background-color: #706c61;
-	color:#e1f4f3;
+    background-color: #4b86b4;
+	color:#ffffff;
 }
 
 /*** FOOTER ***/
