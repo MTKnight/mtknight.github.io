@@ -11,12 +11,15 @@ main {
 header {
     font-family: 'Bellota', cursive;
     color: #232323;
-    background-image: url("headerbackground.jpg");
     display: flex;
     flex-direction: row;
     justify-content: center;
     justify-items: center;
     align-items: center;
+}
+
+.headerbackground {
+    background-image: url("https://mtknight.github.io/assignments/SalmonRiver/images/headerbackground.jpg");
 }
 
 header img {
