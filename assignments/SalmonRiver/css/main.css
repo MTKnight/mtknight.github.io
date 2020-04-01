@@ -2,7 +2,7 @@
 
 /*** BODY ***/
 body {
-    background-color: #dbe6f0;
+    background-color: #edf2f7;
 }
 
 
@@ -87,10 +87,10 @@ nav a:hover {
 
 /*** MAIN ***/
 main {
-    max-width: 60rem;
-    align-self: start;
-    align-items: center;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
 }
 
 h1 {
@@ -99,13 +99,16 @@ h1 {
     text-align: center;
 }
 
-
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #1e3548;
+    text-align: center;
+}
 
 h3 {
     font-family: 'Montserrat', sans-serif;
     color: #1e3548;
     text-align: left;
-    margin-left: 100px;
 }
 
 main a:link {
@@ -118,6 +121,14 @@ main a:visited {
     font-family: 'Montserrat', sans-serif;
 	color:#5a4279;
 }
+
+#landing {
+    align-items: center;
+    background-color: #dbe6f0;
+    text-align: center;
+    padding: 25px;
+}
+
 
 /*** FOOTER ***/
 footer {
@@ -149,6 +160,16 @@ footer a:visited {
 	color:#5a4279;
 }
 
+
+/*** RESOURCES PAGE ***/
+#resources {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    color: #1e3548;
+    text-align: left;
+    line-height: 1.7rem;
+    margin-left: 15px;
+}
 
 /*** MEDIUM ***/
 @media only screen and (min-width: 35rem) {
