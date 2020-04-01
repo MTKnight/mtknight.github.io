@@ -6,7 +6,6 @@ body {
 }
 
 
-
 /*** HEADER ***/
 header {
     font-family: 'Bellota', cursive;
@@ -100,6 +99,24 @@ h1 {
 }
 
 
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #1e3548;
+    text-align: left;
+    margin-left: 100px;
+}
+
+main a:link {
+    font-family: 'Montserrat', sans-serif;
+    color:#B585F2;
+    text-decoration: none;
+}
+
+main a:visited {
+    font-family: 'Montserrat', sans-serif;
+	color:#5a4279;
+}
 
 /*** FOOTER ***/
 footer {
