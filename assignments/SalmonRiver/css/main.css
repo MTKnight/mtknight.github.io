@@ -105,7 +105,7 @@ h1 {
 footer {
     padding: 20px;
     font-family: 'Bellota', cursive;
-    font-size: 1.25rem;
+    font-size: 1.4rem;
     text-align: center;
     color: #c9dae8;
     background-color: #1e3548;
@@ -113,22 +113,22 @@ footer {
 
 footer a:link {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
+    font-size: 1.1rem;
     color:#B585F2;
     text-decoration: none;
 }
 
 footer a:hover {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
+    font-size: 1.1rem;
     color:#B585F2;
     background-color: #2d506c;
 }
 
 footer a:visited {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
-	color:#483560;
+    font-size: 1.1rem;
+	color:#5a4279;
 }
 
 
