@@ -169,7 +169,11 @@ footer a:visited {
     text-align: left;
     line-height: 1.7rem;
     margin-left: 15px;
+    list-style: none;
 }
+
+
+
 
 /*** MEDIUM ***/
 @media only screen and (min-width: 35rem) {
