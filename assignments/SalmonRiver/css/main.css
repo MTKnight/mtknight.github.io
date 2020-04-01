@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Bellota|Montserrat&display=swap');
 
-main {
-    background-color: #e1f4f3;
-    max-width: 60rem;
-    align-self: start;
-    width: 90%;
-    align-items: center;
-}
-
 /*** HEADER ***/
 header {
     font-family: 'Bellota', cursive;
@@ -84,6 +76,16 @@ nav a:hover {
     background-color: #4b86b4;
 	color:#ffffff;
 }
+
+/*** MAIN ***/
+main {
+    background-color: #ffffff;
+    max-width: 60rem;
+    align-self: start;
+    width: 95%;
+    align-items: center;
+}
+
 
 /*** FOOTER ***/
 footer {
