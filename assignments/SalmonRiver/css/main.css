@@ -11,7 +11,7 @@ main {
 header {
     font-family: 'Bellota', cursive;
     color: #232323;
-    background-color: #00a39c;
+    background-image: "headerbackground.jpg";
     display: flex;
     flex-direction: row;
     justify-content: center;
