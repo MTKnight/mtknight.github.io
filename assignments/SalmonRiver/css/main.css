@@ -142,11 +142,13 @@ h4 {
     color: #0f1a24;
     text-align: center;
     padding-bottom: 0em;
-    animation: littleGlow 3s ease-in-out infinite alternate;
+    text-shadow: 0 0 10px #fcfc9e;
+    /***animation: littleGlow 3s ease-in-out infinite alternate;***/
 }
 
+/*** 
 @keyframes littleGlow {
-    from {
+    0% {
       text-shadow:  0 0 10px #eeeeee, 
                     0 0 20px #fcfc9e, 
                     0 0 30px #fcfc9e, 
@@ -155,7 +157,7 @@ h4 {
                     0 0 60px transparent, 
                     0 0 70px transparent;
     }
-    to {
+    100% {
       text-shadow:  0 0 20px #eeeeee, 
                     0 0 30px #6cdbfb, 
                     0 0 40px #6cdbfb, 
@@ -165,6 +167,7 @@ h4 {
                     0 0 80px transparent;
     }
 }
+***/
 
 main a:link {
     font-family: 'Montserrat', sans-serif;
