@@ -150,6 +150,27 @@ h4 {
     animation: littleGlow 2s ease-in-out infinite alternate;
 }
 
+    @keyframes littleGlow {
+        0% {
+            text-shadow:0 0 10px #eeeeee, 
+                        0 0 20px #fcfc9e, 
+                        0 0 30px #fcfc9e, 
+                        0 0 40px #fcfc9e, 
+                        0 0 50px #fcfc9e, 
+                        0 0 60px transparent, 
+                        0 0 70px transparent;
+        }
+        100% {
+            text-shadow:0 0 20px #eeeeee, 
+                        0 0 30px #6cdbfb, 
+                        0 0 40px #6cdbfb, 
+                        0 0 50px #6cdbfb, 
+                        0 0 60px #6cdbfb, 
+                        0 0 70px transparent, 
+                        0 0 80px transparent;
+        }
+    }
+
 h5 {
     font-family: 'Bellota', cursive;
     color: #0f1a24;
@@ -173,26 +194,7 @@ p {
     color: #070d12;
 }
 
-@keyframes littleGlow {
-    0% {
-      text-shadow:  0 0 10px #eeeeee, 
-                    0 0 20px #fcfc9e, 
-                    0 0 30px #fcfc9e, 
-                    0 0 40px #fcfc9e, 
-                    0 0 50px #81aacb, 
-                    0 0 60px transparent, 
-                    0 0 70px transparent;
-    }
-    100% {
-      text-shadow:  0 0 20px #eeeeee, 
-                    0 0 30px #6cdbfb, 
-                    0 0 40px #6cdbfb, 
-                    0 0 50px #6cdbfb, 
-                    0 0 60px #6cdbfb, 
-                    0 0 70px transparent, 
-                    0 0 80px transparent;
-    }
-}
+
 
 main a:link {
     font-family: 'Montserrat', sans-serif;
@@ -230,10 +232,6 @@ main a:visited {
     margin-bottom: 50px;
 }
 
-#action h3 {
-
-}
-
 .slideshow {
     width: 30%;
     height: auto;
@@ -244,6 +242,7 @@ main a:visited {
     flex-direction: row;
     justify-content: center;
     padding: 10px;
+    margin-bottom: 25px;
 }
 
 .primus {
@@ -318,7 +317,6 @@ footer a:visited {
 /*** FORECAST ***/
 #fiveDay {
     padding-top: 1rem;
-    background-color: #c9dae8;
 }
 
 #fiveDay th{
@@ -342,6 +340,10 @@ footer a:visited {
     margin:0;
 }
 
+#fiveDay h4 {
+    margin: 1rem;
+}
+
 .week {
     display: flex;
     flex-direction: row;
@@ -356,7 +358,7 @@ footer a:visited {
 }
 
 .label {
-    color:  #a5c2d9;
+    color:  #edf2f7;
     background-color:#4378a2;
     display: block;
     font-family: 'Bellota', cursive;
@@ -376,6 +378,8 @@ table {
     padding-bottom: 1rem;
 }
 
+
+/*** WAVE SVG***/
 .editorial {
   display: block;
   width: 100%;
@@ -391,24 +395,28 @@ table {
     animation-delay: -2s;
   }
 }
+
 .parallax2 > use {
   animation: move-forever2 8s linear infinite;
   &:nth-child(1) {
     animation-delay: -2s;
   }
 }
+
 .parallax3 > use {
   animation: move-forever3 6s linear infinite;
   &:nth-child(1) {
     animation-delay: -2s;
   }
 }
+
 .parallax4 > use {
   animation: move-forever4 4s linear infinite;
   &:nth-child(1) {
     animation-delay: -2s;
   }
 }
+
 @keyframes move-forever1 {
   0% {
     transform: translate(85px, 0%);
@@ -417,6 +425,7 @@ table {
     transform: translate(-90px, 0%);
   }
 }
+
 @keyframes move-forever2 {
   0% {
     transform: translate(-90px, 0%);
@@ -425,6 +434,7 @@ table {
     transform: translate(85px, 0%);
   }
 }
+
 @keyframes move-forever3 {
   0% {
     transform: translate(85px, 0%);
@@ -433,6 +443,7 @@ table {
     transform: translate(-90px, 0%);
   }
 }
+
 @keyframes move-forever4 {
   0% {
     transform: translate(-90px, 0%);
