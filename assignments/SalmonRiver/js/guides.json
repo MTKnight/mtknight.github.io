@@ -1,0 +1,76 @@
+{
+    "guides": [
+      {
+        "name": "Aragorn II Elessar Telcontar",
+        "photo": "franklin.jpg",
+        "certification": "Dúnedain",
+        "yearsExperience": 60,
+        "email": "strider@sra.com",
+        "bio": "March 4: March to the Drum of Donuts",
+      },
+      {
+        "name": "Frodo Baggins",
+        "photo": "franklin.jpg",
+        "certification": "Hobbit",
+        "yearsExperience": 10,
+        "email": "frodo@sra.com",
+        "bio": "March 4: March to the Drum of Donuts",
+      },
+      {
+        "name": "Galdalf",
+        "photo": "franklin.jpg",
+        "certification": "Istari",
+        "yearsExperience": 500,
+        "email": "gandalf@sra.com",
+        "bio": "March 4: March to the Drum of Donuts",
+      },
+      {
+        "name": "Legolas",
+        "photo": "franklin.jpg",
+        "certification": "Elf",
+        "yearsExperience": 100,
+        "email": "legolas@sra.com",
+        "bio": "March 4: March to the Drum of Donuts",
+      },
+      {
+        "name": "Gimli",
+        "photo": "franklin.jpg",
+        "certification": "Dwarf",
+        "yearsExperience": 35,
+        "email": "gimli@sra.com",
+        "bio": "March 4: March to the Drum of Donuts",
+      },
+      {
+        "name": "Samwise Gamgee",
+        "photo": "franklin.jpg",
+        "certification": "Hobbit",
+        "yearsExperience": 10,
+        "email": "sam@sra.com",
+        "bio": "March 4: March to the Drum of Donuts",
+      },
+      {
+        "name": "Boromir",
+        "photo": "franklin.jpg",
+        "certification": "Man",
+        "yearsExperience": 18,
+        "email": "boromir@sra.com",
+        "bio": "March 4: March to the Drum of Donuts",
+      },
+      {
+        "name": "Meriadoc Brandybuck",
+        "photo": "franklin.jpg",
+        "certification": "Hobbit",
+        "yearsExperience": 11,
+        "email": "merry@sra.com",
+        "bio": "March 4: March to the Drum of Donuts",
+      },
+      {
+        "name": "Peregrin Took",
+        "photo": "franklin.jpg",
+        "certification": "Hobbit",
+        "yearsExperience": 6,
+        "email": "pippin@sra.com",
+        "bio": "March 4: March to the Drum of Donuts",
+      }
+    ]
+  }

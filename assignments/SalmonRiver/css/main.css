@@ -454,6 +454,15 @@ table {
 }
 
 
+/*** GUIDES PAGE***/
+.guides {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    text-align: center;
+}
+
+
 /*** RESERVATIONS PAGE***/
 .reservation {
     margin-left: auto;
