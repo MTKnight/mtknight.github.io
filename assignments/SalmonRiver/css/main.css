@@ -213,6 +213,11 @@ main a:visited {
     align-items: center;
 }
 
+#landing h1 {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
 .slideshow {
     width: 30%;
     height: auto;
