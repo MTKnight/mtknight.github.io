@@ -6,6 +6,10 @@ body {
     box-sizing: border-box;
 }
 
+main {
+    padding-bottom: 100px;
+}
+
 
 /*** HEADER ***/
 header {
@@ -201,6 +205,10 @@ main a:visited {
 	color:#5a4279;
 }
 
+.welcome {
+    margin-bottom: -.8rem;
+}
+
 #landing {
     align-items: center;
     background-color: #dbe6f0;
@@ -303,7 +311,7 @@ footer a:visited {
     z-index:5;
     left: 0px;
     position: absolute;
-    margin-bottom: 500px;
+    margin-top: -70px;
   }
 
 
