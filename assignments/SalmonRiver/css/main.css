@@ -67,7 +67,6 @@ header {
 }
 
 
-
 /*** MENU ***/
 nav {
     clear: left;
@@ -116,7 +115,6 @@ nav a:hover {
 main {
     margin-left: auto;
     margin-right: auto;
-    display: flex;
     justify-content: center;
 }
 
@@ -154,6 +152,16 @@ main a:visited {
     background-color: #dbe6f0;
     text-align: center;
     padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.slideshow {
+    width: 30%;
+    height: auto;
 }
 
 
@@ -199,15 +207,35 @@ footer a:visited {
     list-style: none;
 }
 
+@media only screen and (max-width: 41rem) {
+    .logo {
+        display: none;
+    }
+}
 
+@media only screen and (max-width: 30rem) {
+    header {
+        background-image: none;
+        background-color: #0f1a24;
+    }
+
+    .motto {
+        color: #dbe6f0;
+    }
+
+    .slideshow {
+        display: none;
+    }
+}
 
 
 /*** MEDIUM ***/
-@media only screen and (min-width: 35rem) {
-	.headings h1 {
+@media only screen and (min-width: 41rem) {
+    
+    .headings h1 {
 		font-size: 2rem;
 		margin-left: .3rem;
-	}
+    }
 
     /*** MENU ***/
     nav button { 
