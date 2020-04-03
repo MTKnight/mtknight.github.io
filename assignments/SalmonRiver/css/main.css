@@ -511,7 +511,7 @@ input#adventure {
     border: none;
     outline: none;
     color: #fff;
-    background: #111;
+    background: #1e3548;
     cursor: pointer;
     position: relative;
     z-index: 0;
@@ -536,7 +536,7 @@ input#adventure {
 }
 
 .glow-on-hover:active {
-    color: #000
+    color: #1e3548;
 }
 
 .glow-on-hover:active:after {
@@ -553,7 +553,7 @@ input#adventure {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #111;
+    background: #1e3548
     left: 0;
     top: 0;
     border-radius: 10px;
