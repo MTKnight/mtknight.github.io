@@ -142,11 +142,9 @@ h4 {
     color: #0f1a24;
     text-align: center;
     padding-bottom: 0em;
-    text-shadow: 0 0 10px #fcfc9e;
-    /***animation: littleGlow 3s ease-in-out infinite alternate;***/
+    animation: littleGlow 3s ease-in-out infinite alternate;
 }
 
-/*** 
 @keyframes littleGlow {
     0% {
       text-shadow:  0 0 10px #eeeeee, 
@@ -167,7 +165,6 @@ h4 {
                     0 0 80px transparent;
     }
 }
-***/
 
 main a:link {
     font-family: 'Montserrat', sans-serif;
