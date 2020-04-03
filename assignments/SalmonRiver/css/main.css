@@ -196,6 +196,68 @@ footer a:visited {
 }
 
 
+/*** FORECAST ***/
+#fiveDay {
+    padding-top: 1rem;
+    background-color: #c9dae8;
+}
+
+#fiveDay th{
+    background-color: #a5c2d9;
+    padding:2px;
+    width:100px;
+}
+
+#fiveDay td{
+    color:#4378a2;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#fiveDay td img{
+    width:80px;
+    padding:3px;
+}
+
+#fiveDay td p{
+    margin:0;
+}
+
+.week {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    width: 80%;
+}
+
+.day {
+    flex: 1 1 100%;
+    font-size: .7rem;
+    justify-content: center;
+}
+
+.label {
+    color:  #a5c2d9;
+    background-color:#4378a2;
+    display: block;
+    font-family: 'Bellota', cursive;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: .5rem;
+}
+
+.temp {
+    font-family: 'Bellota', cursive;
+    font-size: 1.25em;
+    color: #0f1a24;
+}
+
+table {
+    margin: auto;
+}
+
+
+
 /*** RESOURCES PAGE ***/
 #resources {
     font-family: 'Montserrat', sans-serif;
@@ -226,6 +288,10 @@ footer a:visited {
     .slideshow {
         display: none;
     }
+
+    #fiveDay { 
+        display: none; 
+        }
 }
 
 
@@ -260,6 +326,7 @@ footer a:visited {
         text-align: center;
         white-space: nowrap;
     }   
+
 }
 
 
