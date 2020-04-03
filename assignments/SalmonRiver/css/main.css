@@ -230,8 +230,12 @@ main a:visited {
     margin-right: 25px;
 }
 
+.wave {
+    margin-top: -52px;
+}
+
 #action {
-    margin-bottom: 50px;
+    margin: 50px;
 }
 
 .slideshow {
@@ -393,31 +397,24 @@ table {
 }
 
 .parallax1 > use {
-  animation: move-forever1 10s linear infinite;
-  &:nth-child(1) {
+    animation: move-forever1 10s linear infinite;
     animation-delay: -2s;
-  }
 }
 
+
 .parallax2 > use {
-  animation: move-forever2 8s linear infinite;
-  &:nth-child(1) {
+    animation: move-forever2 8s linear infinite;
     animation-delay: -2s;
-  }
 }
 
 .parallax3 > use {
-  animation: move-forever3 6s linear infinite;
-  &:nth-child(1) {
+    animation: move-forever3 6s linear infinite;
     animation-delay: -2s;
-  }
 }
 
 .parallax4 > use {
-  animation: move-forever4 4s linear infinite;
-  &:nth-child(1) {
+    animation: move-forever4 4s linear infinite;
     animation-delay: -2s;
-  }
 }
 
 @keyframes move-forever1 {
