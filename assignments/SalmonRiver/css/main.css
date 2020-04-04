@@ -635,6 +635,10 @@ input#adventure {
         display: none;
     }
 
+    .wave {
+        display: none;
+    }
+
     #fiveDay { 
         display: none; 
         }
