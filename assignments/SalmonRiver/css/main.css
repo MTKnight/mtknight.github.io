@@ -462,6 +462,10 @@ table {
     text-align: center;
 }
 
+.onering {
+    display: none;
+}
+
 
 /*** RESERVATIONS PAGE***/
 .reservation {
