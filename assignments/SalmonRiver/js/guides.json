@@ -8,6 +8,7 @@
         "email": "strider@sra.com",
         "bio": "March 4: March to the Drum of Donuts",
       },
+
       {
         "name": "Frodo Baggins",
         "photo": "Frodo.jpg",
@@ -16,6 +17,7 @@
         "email": "frodo@sra.com",
         "bio": "March 4: March to the Drum of Donuts",
       },
+
       {
         "name": "Galdalf",
         "photo": "Gandalf.jpg",
@@ -24,6 +26,7 @@
         "email": "gandalf@sra.com",
         "bio": "March 4: March to the Drum of Donuts",
       },
+
       {
         "name": "Legolas",
         "photo": "Legolas.jpg",
@@ -32,6 +35,7 @@
         "email": "legolas@sra.com",
         "bio": "March 4: March to the Drum of Donuts",
       },
+
       {
         "name": "Gimli",
         "photo": "Gimli.jpg",
@@ -40,6 +44,7 @@
         "email": "gimli@sra.com",
         "bio": "March 4: March to the Drum of Donuts",
       },
+
       {
         "name": "Samwise Gamgee",
         "photo": "Sam.jpg",
@@ -48,6 +53,7 @@
         "email": "sam@sra.com",
         "bio": "March 4: March to the Drum of Donuts",
       },
+
       {
         "name": "Boromir",
         "photo": "Boromir.jpg",
@@ -56,6 +62,7 @@
         "email": "boromir@sra.com",
         "bio": "March 4: March to the Drum of Donuts",
       },
+
       {
         "name": "Meriadoc Brandybuck",
         "photo": "Merry.jpg",
@@ -64,6 +71,7 @@
         "email": "merry@sra.com",
         "bio": "March 4: March to the Drum of Donuts",
       },
+      
       {
         "name": "Peregrin Took",
         "photo": "Pippin.jpg",
