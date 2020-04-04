@@ -2,7 +2,7 @@
     "guides": [
       {
         "name": "Aragorn II Elessar Telcontar",
-        "photo": "franklin.jpg",
+        "photo": "Aragorn.jpg",
         "certification": "Dúnedain",
         "yearsExperience": 60,
         "email": "strider@sra.com",
@@ -10,7 +10,7 @@
       },
       {
         "name": "Frodo Baggins",
-        "photo": "franklin.jpg",
+        "photo": "Frodo.jpg",
         "certification": "Hobbit",
         "yearsExperience": 10,
         "email": "frodo@sra.com",
@@ -18,7 +18,7 @@
       },
       {
         "name": "Galdalf",
-        "photo": "franklin.jpg",
+        "photo": "Gandalf.jpg",
         "certification": "Istari",
         "yearsExperience": 500,
         "email": "gandalf@sra.com",
@@ -26,7 +26,7 @@
       },
       {
         "name": "Legolas",
-        "photo": "franklin.jpg",
+        "photo": "Legolas.jpg",
         "certification": "Elf",
         "yearsExperience": 100,
         "email": "legolas@sra.com",
@@ -34,7 +34,7 @@
       },
       {
         "name": "Gimli",
-        "photo": "franklin.jpg",
+        "photo": "Gimli.jpg",
         "certification": "Dwarf",
         "yearsExperience": 35,
         "email": "gimli@sra.com",
@@ -42,7 +42,7 @@
       },
       {
         "name": "Samwise Gamgee",
-        "photo": "franklin.jpg",
+        "photo": "Sam.jpg",
         "certification": "Hobbit",
         "yearsExperience": 10,
         "email": "sam@sra.com",
@@ -50,7 +50,7 @@
       },
       {
         "name": "Boromir",
-        "photo": "franklin.jpg",
+        "photo": "Boromir.jpg",
         "certification": "Man",
         "yearsExperience": 18,
         "email": "boromir@sra.com",
@@ -58,7 +58,7 @@
       },
       {
         "name": "Meriadoc Brandybuck",
-        "photo": "franklin.jpg",
+        "photo": "Merry.jpg",
         "certification": "Hobbit",
         "yearsExperience": 11,
         "email": "merry@sra.com",
@@ -66,7 +66,7 @@
       },
       {
         "name": "Peregrin Took",
-        "photo": "franklin.jpg",
+        "photo": "Pippin.jpg",
         "certification": "Hobbit",
         "yearsExperience": 6,
         "email": "pippin@sra.com",
