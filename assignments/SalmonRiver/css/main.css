@@ -521,18 +521,19 @@ input#adventure {
 .contact {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 5em;
-    text-align: center;
     background-color: #e6e9f3;
+}
+
+.map-block {
+    text-align: center;
+    padding-top: 1rem;
 }
 
 .map {
     border: 2px;
     border-style: solid;
-    border-color: #2b5394;
+    border-color: #1e3548;
 }
-
-/***.map:hover {  } ***/
 
 .info {
     margin-top: auto;
