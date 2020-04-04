@@ -517,6 +517,39 @@ input#adventure {
 }
 
 
+/*** CONTACT ***/ 
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5em;
+    text-align: center;
+    background-color: #e6e9f3;
+}
+
+.map {
+    border: 2px;
+    border-style: solid;
+    border-color: #2b5394;
+}
+
+/***.map:hover {  } ***/
+
+.info {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+}
+
+.stardust#id {
+    animation: neonGlow 2s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955); 
+}
+
+
+
 /*** BUTTONS ***/
 .glow-on-hover {
     width: 220px;
