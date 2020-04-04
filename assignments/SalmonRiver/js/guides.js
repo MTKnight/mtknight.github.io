@@ -10,8 +10,8 @@ fetch(requestURL)
 	
     guides.forEach(guide => {
       var card = document.createElement('section');
-      var name = document.createElement('h6');
-      var certification = document.createElement('h4');
+      var name = document.createElement('p');
+      var certification = document.createElement('p');
       var year = document.createElement('p');
       var email = document.createElement('p');
       var bio = document.createElement('p');
