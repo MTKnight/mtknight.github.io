@@ -1,7 +1,7 @@
 {
 	"guides": [{
 			"name": "Aragorn II Elessar Telcontar",
-			"photo": "Aragorn.jpg",
+			"image": "Aragorn.jpg",
 			"certification": "Dúnedain",
 			"yearsExperience": 60,
 			"email": "strider@sra.com",
@@ -10,7 +10,7 @@
 
 		{
 			"name": "Frodo Baggins",
-			"photo": "Frodo.jpg",
+			"image": "Frodo.jpg",
 			"certification": "Hobbit",
 			"yearsExperience": 10,
 			"email": "frodo@sra.com",
@@ -19,7 +19,7 @@
 
 		{
 			"name": "Gandalf",
-			"photo": "Gandalf.jpg",
+			"image": "Gandalf.jpg",
 			"certification": "Istari",
 			"yearsExperience": 500,
 			"email": "gandalf@sra.com",
@@ -28,7 +28,7 @@
 
 		{
 			"name": "Legolas",
-			"photo": "Legolas.jpg",
+			"image": "Legolas.jpg",
 			"certification": "Elf",
 			"yearsExperience": 100,
 			"email": "legolas@sra.com",
@@ -37,7 +37,7 @@
 
 		{
 			"name": "Gimli",
-			"photo": "Gimli.jpg",
+			"image": "Gimli.jpg",
 			"certification": "Dwarf",
 			"yearsExperience": 35,
 			"email": "gimli@sra.com",
@@ -46,7 +46,7 @@
 
 		{
 			"name": "Samwise Gamgee",
-			"photo": "Sam.jpg",
+			"image": "Sam.jpg",
 			"certification": "Hobbit",
 			"yearsExperience": 10,
 			"email": "sam@sra.com",
@@ -55,7 +55,7 @@
 
 		{
 			"name": "Boromir",
-			"photo": "Boromir.jpg",
+			"image": "Boromir.jpg",
 			"certification": "Man",
 			"yearsExperience": 18,
 			"email": "boromir@sra.com",
@@ -64,7 +64,7 @@
 
 		{
 			"name": "Meriadoc Brandybuck",
-			"photo": "Merry.jpg",
+			"image": "Merry.jpg",
 			"certification": "Hobbit",
 			"yearsExperience": 11,
 			"email": "merry@sra.com",
@@ -73,7 +73,7 @@
 
 		{
 			"name": "Peregrin Took",
-			"photo": "Pippin.jpg",
+			"image": "Pippin.jpg",
 			"certification": "Hobbit",
 			"yearsExperience": 6,
 			"email": "pippin@sra.com",

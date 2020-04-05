@@ -1,4 +1,4 @@
-const requestURL = 'https://mtknight.github.io/assignments/SalmonRiver/js/guides.json';
+;const requestURL = 'https://mtknight.github.io/assignments/SalmonRiver/js/guides.json';
 
 fetch(requestURL)
   .then(function(response) {
