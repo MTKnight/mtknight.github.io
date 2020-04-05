@@ -72,6 +72,16 @@ header {
     animation: neonGlow 2s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
+.crown {
+    display: block;
+    width: 100%;
+    height: 60px;
+    z-index:5;
+    left: 0px;
+    position: absolute;
+    margin-top: -58px;
+  }
+
 
 #explanation {
     text-shadow: 0 0 20px #ffffff;
@@ -548,8 +558,16 @@ footer a:visited {
     z-index:5;
     left: 0px;
     position: absolute;
-    margin-top: -58px;
+    margin-top: -70px;
   }
+
+.glow-on-hover#me {
+    margin-top: 5rem;
+    font-family: 'Bellota', cursive;
+    font-size: 1.4rem;
+    text-align: center;
+    color: #c9dae8;
+}
 
 
 
