@@ -15,7 +15,7 @@ fetch(requestURL)
       var cert = document.createElement('h8');
       var years = document.createElement('p');
       var email = document.createElement('p');
-      var bio = document.createElement('p.bio');
+      var bio = document.createElement('h9');
 
       switch (guide.name) {
         case 'Aragorn':
