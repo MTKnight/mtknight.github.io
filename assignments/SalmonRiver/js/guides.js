@@ -18,7 +18,7 @@ fetch(requestURL)
       var bio = document.createElement('p.bio');
 
       switch (guide.name) {
-        case 'Aragorn II Elessar':
+        case 'Aragorn':
         case 'Frodo Baggins':
         case 'Gandalf':
 		case 'Legolas':
