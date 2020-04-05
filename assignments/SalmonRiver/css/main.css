@@ -139,8 +139,9 @@ h2 {
 
 h3 {
     font-family: 'Montserrat', sans-serif;
-    color: #1e3548;
-    text-align: left;
+    font-size: 1.7rem;
+    color: #b585f2;
+    text-align: center;
 }
 
 h4 {
@@ -220,11 +221,21 @@ p {
     color: #070d12;
 }
 
+p.calltoaction {
+    font-family: 'Bellota', cursive;
+    font-size: 1.1rem;
+    color: #6c4f91;
+}
+
+.disclaimer {
+    font-size: 1rem;
+}
+
 
 
 main a:link {
     font-family: 'Montserrat', sans-serif;
-    color:#B585F2;
+    color:#b585f2;
     text-decoration: none;
 }
 
@@ -235,6 +246,8 @@ main a:visited {
 
 .welcome {
     margin-bottom: -.8rem;
+    font-family: 'Bellota', cursive;
+    font-size: 2rem;
 }
 
 #landing {
@@ -317,14 +330,14 @@ footer {
 footer a:link {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.1rem;
-    color:#B585F2;
+    color:#b585f2;
     text-decoration: none;
 }
 
 footer a:hover {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.1rem;
-    color:#B585F2;
+    color:#b585f2;
     text-shadow:0 0 20px #c9dae8;
 }
 
