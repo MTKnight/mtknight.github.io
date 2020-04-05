@@ -191,6 +191,29 @@ h6 {
     margin: 0;
 }
 
+
+h7 {
+    font-family: 'Bellota', cursive;
+    font-size: 1.4rem;
+    color: #3c6b90;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+h8 {
+    font-family: 'Bellota', cursive;
+    font-size: 1.2rem;
+    color: #3c6b90;
+    text-align: center;
+    margin-top: -1rem;
+}
+
+h10 {
+    width: 70px;
+    font-family: 'Montserrat', sans-serif;
+    color: #070d12;
+}
+
 p {
     font-family: 'Montserrat', sans-serif;
     color: #070d12;
@@ -458,13 +481,12 @@ table {
 .guides {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 30px;
     margin: auto;
     text-align: center;
+    padding-top: 30px;
 }
 
-.onering {
-    display: none;
-}
 
 
 /*** RESERVATIONS PAGE***/

@@ -10,15 +10,15 @@ fetch(requestURL)
 	
 	  guides.forEach(guide => {
 	  var card = document.createElement('section');
-	  var name = document.createElement('p');
+	  var name = document.createElement('h7');
 	  var image = document.createElement('img');
-      var cert = document.createElement('p');
+      var cert = document.createElement('h8');
       var years = document.createElement('p');
       var email = document.createElement('p');
-      var bio = document.createElement('p');
+      var bio = document.createElement('p.bio');
 
       switch (guide.name) {
-        case 'Aragorn II Elessar Telcontar':
+        case 'Aragorn II Elessar':
         case 'Frodo Baggins':
         case 'Gandalf':
 		case 'Legolas':
@@ -31,9 +31,9 @@ fetch(requestURL)
           cert.textContent = guide.certification;
           years.textContent = `Years of Experience: ${guide.yearsExperience}`;
           email.textContent = `Email: ${guide.email}`;
-          bio.textContent = `Snapshot: ${guide.bio}`;
+          bio.textContent = guide.bio;
     
-          image.setAttribute('src', `images/${guide.photo}`);
+          image.setAttribute('src', `images/${guide.image}`);
           image.setAttribute('alt', `${guide.name} - ${guide.certification}`);
     
 		  card.appendChild(name);
