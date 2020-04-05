@@ -1,84 +1,83 @@
 {
-    "guides": [
-      {
-        "name": "Aragorn II Elessar Telcontar",
-        "photo": "Aragorn.jpg",
-        "certification": "Dúnedain",
-        "yearsExperience": 60,
-        "email": "strider@sra.com",
-        "bio": "March 4: March to the Drum of Donuts",
-      },
+	"guides": [{
+			"name": "Aragorn II Elessar Telcontar",
+			"photo": "Aragorn.jpg",
+			"certification": "Dúnedain",
+			"yearsExperience": 60,
+			"email": "strider@sra.com",
+			"bio": "Aragorn II, son of Arathorn II and Gilraen, also known as Elessar and Strider, is an expert river navigator. He's also a skilled paramedic."
+		},
 
-      {
-        "name": "Frodo Baggins",
-        "photo": "Frodo.jpg",
-        "certification": "Hobbit",
-        "yearsExperience": 10,
-        "email": "frodo@sra.com",
-        "bio": "March 4: March to the Drum of Donuts",
-      },
+		{
+			"name": "Frodo Baggins",
+			"photo": "Frodo.jpg",
+			"certification": "Hobbit",
+			"yearsExperience": 10,
+			"email": "frodo@sra.com",
+			"bio": "When Frodo was only 12 years old, his parents drowned in a boating accident on the Brandywine River. This early tragedy led Frodo to want to not only understand water safety, but help ensure otehrs can safely enjoy our rivers."
+		},
 
-      {
-        "name": "Galdalf",
-        "photo": "Gandalf.jpg",
-        "certification": "Istari",
-        "yearsExperience": 500,
-        "email": "gandalf@sra.com",
-        "bio": "March 4: March to the Drum of Donuts",
-      },
+		{
+			"name": "Galdalf",
+			"photo": "Gandalf.jpg",
+			"certification": "Istari",
+			"yearsExperience": 500,
+			"email": "gandalf@sra.com",
+			"bio": "Whether you wish you find yourself in the library or on the river, you could not ask for a better companion and friend than Gandalf."
+		},
 
-      {
-        "name": "Legolas",
-        "photo": "Legolas.jpg",
-        "certification": "Elf",
-        "yearsExperience": 100,
-        "email": "legolas@sra.com",
-        "bio": "March 4: March to the Drum of Donuts",
-      },
+		{
+			"name": "Legolas",
+			"photo": "Legolas.jpg",
+			"certification": "Elf",
+			"yearsExperience": 100,
+			"email": "legolas@sra.com",
+			"bio": "When not on the river, Legolas can be found at the range practicing his archery. His keen eyes and patient practice have made him a skilled archer."
+		},
 
-      {
-        "name": "Gimli",
-        "photo": "Gimli.jpg",
-        "certification": "Dwarf",
-        "yearsExperience": 35,
-        "email": "gimli@sra.com",
-        "bio": "March 4: March to the Drum of Donuts",
-      },
+		{
+			"name": "Gimli",
+			"photo": "Gimli.jpg",
+			"certification": "Dwarf",
+			"yearsExperience": 35,
+			"email": "gimli@sra.com",
+			"bio": "Gimli is first and foremost a woodsman, who's skilled with an axe. He's always up for an adventure, whether it's down the river or a bit of spelunking."
+		},
 
-      {
-        "name": "Samwise Gamgee",
-        "photo": "Sam.jpg",
-        "certification": "Hobbit",
-        "yearsExperience": 10,
-        "email": "sam@sra.com",
-        "bio": "March 4: March to the Drum of Donuts",
-      },
+		{
+			"name": "Samwise Gamgee",
+			"photo": "Sam.jpg",
+			"certification": "Hobbit",
+			"yearsExperience": 10,
+			"email": "sam@sra.com",
+			"bio": "Sam Gamgee is our resident nature specialist. We've yet to find a plant that he can't identify. He's an excellent river guide that loves taking nature walks as well."
+		},
 
-      {
-        "name": "Boromir",
-        "photo": "Boromir.jpg",
-        "certification": "Man",
-        "yearsExperience": 18,
-        "email": "boromir@sra.com",
-        "bio": "March 4: March to the Drum of Donuts",
-      },
+		{
+			"name": "Boromir",
+			"photo": "Boromir.jpg",
+			"certification": "Man",
+			"yearsExperience": 18,
+			"email": "boromir@sra.com",
+			"bio": "Boromir is a valiant and steadfast guide and survivalist. He specializes in overnight excursions."
+		},
 
-      {
-        "name": "Meriadoc Brandybuck",
-        "photo": "Merry.jpg",
-        "certification": "Hobbit",
-        "yearsExperience": 11,
-        "email": "merry@sra.com",
-        "bio": "March 4: March to the Drum of Donuts",
-      },
-      
-      {
-        "name": "Peregrin Took",
-        "photo": "Pippin.jpg",
-        "certification": "Hobbit",
-        "yearsExperience": 6,
-        "email": "pippin@sra.com",
-        "bio": "March 4: March to the Drum of Donuts",
-      }
-    ]
-  }
+		{
+			"name": "Meriadoc Brandybuck",
+			"photo": "Merry.jpg",
+			"certification": "Hobbit",
+			"yearsExperience": 11,
+			"email": "merry@sra.com",
+			"bio": "Merry is our resident creature expert. With a perceptive eye, he can spot even the most illusive animals along the river ways."
+		},
+
+		{
+			"name": "Peregrin Took",
+			"photo": "Pippin.jpg",
+			"certification": "Hobbit",
+			"yearsExperience": 6,
+			"email": "pippin@sra.com",
+			"bio": "Pippin is our resident forager. He's a wonderful chef with a special fondess for wild mushroom found along the waterways."
+		}
+	]
+}
