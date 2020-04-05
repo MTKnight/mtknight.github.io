@@ -23,6 +23,7 @@ header {
     justify-content: center;
     justify-items: center;
     align-items: center;
+    height: 20rem;
 }
 
 .headertext {
@@ -65,57 +66,222 @@ header {
 
 .motto {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-top: .25rem;
-    margin-bottom: 1rem;
-    text-shadow: 0 0 60px  #dbe6f0;
+    margin-bottom: .5rem;
+    animation: neonGlow 2s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
-
-/*** MENU ***/
-nav {
-    clear: left;
-    background-color: #93b6d2;
-    margin-top: -1rem;
-    font-family: 'Montserrat', sans-serif;
-}
-
-nav button {
-    margin-left: 50%;
-    background-color: transparent;
-    color: #ffffff;
-	border:none;
-    font-size: 1.6rem;
-}
-
-nav ul {
-	list-style-type: none;
-	padding:0;
-    margin:0;
+/*** Hex Nav ***/
+#hexGrid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
     overflow: hidden;
-}
-
-nav ul.hide {
-    display: none;
-}
-
-nav li a {
-	display: block;
-	padding: .5rem;
-    text-decoration: none;
-    color: #ffffff;
-}
-
-nav a:hover {
-    background-color: #4b86b4;
-    color:#5a4279;
-    text-shadow:0 0 20px #dbe6f0;
-}
-
-.active {
-    background-color: #4b86b4;
-	color:#ffffff;
-}
+    font-family: sans-serif;
+    list-style-type: none;
+  }
+  
+  .hex {
+    position: relative;
+    visibility:hidden;
+    outline:1px solid transparent; /* fix for jagged edges in FF on hover transition */
+    transition: all 0.5s;
+    backface-visibility: hidden;
+    will-change: transform;
+    transition: all 0.5s;
+  }
+  
+  .hex::after{
+    content:'';
+    display:block;
+    padding-bottom: 86.602%;  /* =  100 / tan(60) * 1.5 */
+  }
+  .hexIn{
+    position: absolute;
+    width:96%;
+    padding-bottom: 110.851%; /* =  width / sin(60) */
+    margin: 2%;
+    overflow: hidden;
+    visibility: hidden;
+    outline:1px solid transparent; /* fix for jagged edges in FF on hover transition */
+    -webkit-transform: rotate3d(0,0,1,-60deg) skewY(30deg);
+        -ms-transform: rotate3d(0,0,1,-60deg) skewY(30deg);
+            transform: rotate3d(0,0,1,-60deg) skewY(30deg);
+      transition: all 0.5s;
+  }
+  .hexIn * {
+    position: absolute;
+    visibility: visible;
+    outline:1px solid transparent; /* fix for jagged edges in FF on hover transition */
+  }
+  .hexLink {
+      display:block;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      color: #fff;
+      overflow: hidden;
+      -webkit-transform: skewY(-30deg) rotate3d(0,0,1,60deg);
+          -ms-transform: skewY(-30deg) rotate3d(0,0,1,60deg);
+              transform: skewY(-30deg) rotate3d(0,0,1,60deg);
+  }
+  
+  
+  
+  
+  /*** HEX CONTENT **********************************************************************/
+  .hex img {
+    left: -100%;
+    right: -100%;
+    width: auto;
+    height: 100%;
+    margin: 0 auto;
+  }
+  
+  .hex h1, .hex p {
+    width: 100%;
+    padding: 5%;
+    box-sizing:border-box;
+    font-weight: 300;
+    opacity: 0;
+  }
+  
+  #demo1 {
+    color: #F5CE95;
+    text-transform: capitalize;
+      text-align: center;
+    bottom: 50%;
+    padding-top:50%;
+    font-size: 1.5em;
+    z-index: 1;
+  }
+  .hex h1:before, .hex h1:after {
+    display: inline-block;
+    margin: 0 0.5em;
+    width: 0.25em;
+    height: 0.03em;
+    background: #ffffff;
+    content: '';
+    vertical-align: middle;
+    transition: all 0.3s;
+    text-align:center;
+  }
+  
+  #demo2 {
+  top: 50%;
+  text-align: center;
+  text-transform: uppercase;
+      
+  }
+  
+  .img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  }
+  
+  .img:before, .img:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: '';
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  .img:before {
+    background: rgba(22, 103, 137, 0.3)
+  }
+  .img:after {
+    background: linear-gradient(to top, transparent, rgba(0, 0, 0, 0.5), transparent);
+  }
+  
+  /*** HOVER EFFECT  **********************************************************************/
+  
+  
+  
+  .hexLink:hover h1, .hexLink:focus h1,
+  .hexLink:hover p, .hexLink:focus p{
+  opacity:1;
+  transition: 0.8s;
+  }
+  
+  
+  .hexIn:hover .img:before,
+  .hexIn:hover .img:after,
+  .hexIn:hover .hexLink {
+    opacity: 1;
+  }
+  
+  
+  /*** HEXAGON SIZING AND EVEN ROW INDENTATION *****************************************************************/
+  @media (min-width:1201px) { /* <- 5-4  hexagons per row */
+    #hexGrid{
+      padding-bottom: 4.4%
+    }
+    .hex {
+      width: 20%; /* = 100 / 5 */
+    }
+    .hex:nth-child(9n+6){ /* first hexagon of even rows */
+      margin-left:10%;  /* = width of .hex / 2  to indent even rows */
+    }
+  }
+  
+  @media (max-width: 1200px) and (min-width:901px) { /* <- 4-3  hexagons per row */
+    #hexGrid{
+      padding-bottom: 5.5%;
+      font-size: 13px;
+    }
+    .hex {
+      width: 25%; /* = 100 / 4 */
+    }
+    .hex:nth-child(7n+5){ /* first hexagon of even rows */
+      margin-left:12.5%;  /* = width of .hex / 2  to indent even rows */
+    }
+  }
+  
+  @media (max-width: 900px) and (min-width:601px) { /* <- 3-2  hexagons per row */
+    #hexGrid{
+      padding-bottom: 7.4%;
+      font-size: 14px;
+    }
+    .hex {
+      width: 33.333%; /* = 100 / 3 */
+    }
+    .hex:nth-child(5n+4){ /* first hexagon of even rows */
+      margin-left:16.666%;  /* = width of .hex / 2  to indent even rows */
+    }
+  }
+  
+  @media (max-width: 600px) { /* <- 2-1  hexagons per row */
+    #hexGrid{
+      padding-bottom: 11.2%;
+      font-size: 12px;
+    }
+    .hex {
+      width: 50%; /* = 100 / 3 */
+    }
+    .hex:nth-child(3n+3){ /* first hexagon of even rows */
+      margin-left:25%;  /* = width of .hex / 2  to indent even rows */
+    }
+  }
+  
+  @media (max-width: 400px) {
+      #hexGrid {
+          font-size: 8px;
+      }
+    
+  }
 
 
 /*** MAIN ***/
@@ -491,109 +657,6 @@ table {
 }
 
 
-/*** GUIDES PAGE***/
-.guides {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-row-gap: 30px;
-    grid-column-gap: 20px;
-    margin: auto;
-    text-align: center;
-    padding-top: 30px;
-}
-
-img {
-    padding: 5px;
-}
-
-
-
-/*** RESERVATIONS PAGE***/
-.reservation {
-    margin-left: auto;
-    margin-right: auto;
-    width: 40rem;
-    font-family: 'Montserrat', sans-serif;
-    color: #1e3548;
-    padding: 5px;
-}
-
-legend {
-    font-family: 'Bellota', cursive;
-    font-size: 1.5rem;
-    color: #5a4279;
-    padding-bottom: 10px;
-}
-
-.res-section {
-    margin-bottom: 25px;
-    border: 2px solid #5a4279;
-}
-
-input {
-    margin-bottom: 10px;
-    padding: 10px;
-    width: 30rem;
-}
-
-input#adventure {
-    width: 5rem;
-}
-
-.underline {
-    border-bottom: 2px solid #5a4279;
-}
-
-#breakword {
-    word-wrap: break-word;
-}
-
-
-/*** RESOURCES PAGE ***/
-#resources {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.2rem;
-    color: #1e3548;
-    text-align: left;
-    line-height: 1.7rem;
-    margin-left: 15px;
-    list-style: none;
-}
-
-
-/*** CONTACT ***/ 
-.contact {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: #e6e9f3;
-}
-
-.map-block {
-    text-align: center;
-    padding-top: 1rem;
-}
-
-.map {
-    border: 2px;
-    border-style: solid;
-    border-color: #1e3548;
-}
-
-.info {
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-.icon {
-    height: 50px;
-    width: 50px;
-}
-
-.stardust#id {
-    animation: neonGlow 2s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955); 
-}
-
-
 
 /*** BUTTONS ***/
 .glow-on-hover {
@@ -656,94 +719,3 @@ input#adventure {
     100% { background-position: 0 0; }
 }
 
-
-
-
-@media only screen and (max-width: 41rem) {
-    .logo {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 30rem) {
-    header {
-        background-image: none;
-        background-color: #0f1a24;
-    }
-
-    .motto {
-        color: #dbe6f0;
-    }
-
-    .slideshow {
-        display: none;
-    }
-
-    .wave {
-        display: none;
-    }
-
-    #fiveDay { 
-        display: none; 
-        }
-}
-
-
-/*** MEDIUM ***/
-@media only screen and (min-width: 41rem) {
-    
-    .headings h1 {
-		font-size: 2rem;
-		margin-left: .3rem;
-    }
-
-    /*** MENU ***/
-    nav button { 
-        display: none; 
-    }
-
-    nav ul { 
-        display: flex;	
-    }
-
-    nav ul.hide { 
-        display: flex; 
-    }
-
-    nav ul li { 
-        flex: 1 1 100%; 
-    }
-
-    nav ul li a {
-        border: none;
-        font-size: .8rem;
-        text-align: center;
-        white-space: nowrap;
-    }   
-
-}
-
-
-
-/*** LARGE ***/
-@media only screen and (min-width: 64rem) {
-	nav ul li a {
-		padding: .6rem 1rem;
-	}
-
-	h1 {
-		font-size: 3em;
-	}
-
-	nav ul li a { 
-        font-size: 1rem; 
-    }
-
-	nav button { 
-        display: none; 
-    }
-
-	main {
-		max-width: 60rem;
-	}
-}
