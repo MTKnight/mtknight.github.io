@@ -397,6 +397,18 @@ h9 {
     color: #070d12;
 }
 
+h10 {
+    background: linear-gradient(to right, #df64df, #fffb00, #df64df, #6c44a1, #df64df, #fbcb35, #df64df, #6c44a1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Bellota', cursive;
+    font-weight: bolder;
+    font-size: 2rem;
+    text-align: center;
+    margin-left: 10rem;
+    margin-right: auto;
+}
+
 p {
     font-family: 'Montserrat', sans-serif;
     color: #f0f9fd;
