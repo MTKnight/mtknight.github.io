@@ -224,10 +224,11 @@ header {
     transition: opacity 0.5s;
   }
   .img:before {
-    background: rgba(223,100,223, 0.3)
+    background: rgba(223,100,223, 0.4)
   }
+  
   .img:after {
-    background: linear-gradient(to top, transparent, rgba(44,20,44, 0.5), transparent);
+    background: linear-gradient(to top, transparent, rgba(223,100,223, 0.3), transparent);
   }
   
   /*** HOVER EFFECT  **********************************************************************/
@@ -415,7 +416,7 @@ h10 {
     font-weight: bolder;
     font-size: 2rem;
     text-align: center;
-    margin-left: 10rem;
+    margin-left: 15rem;
     margin-right: auto;
 }
 
