@@ -105,9 +105,9 @@ header {
 }
 
 .banner {
-    width: 40%;
+    max-width: 40%;
     height: auto;
-    margin-left: 30%;
+    margin-left: 33%;
 }
 
 
@@ -213,6 +213,7 @@ header {
   #demo2 {
   top: 40%;
   text-align: center;
+  color: #ffffff;
   text-transform: uppercase;
       
   }
@@ -336,7 +337,7 @@ main {
 
 h1 {
     font-family: 'Bellota', cursive;
-    color: #4b86b4;
+    color: #df64df;
     text-align: center;
 }
 
@@ -439,7 +440,7 @@ h10 {
 
 p {
     font-family: 'Montserrat', sans-serif;
-    color: #f0f9fd;
+    color: #0a0610;
 }
 
 p.calltoaction {
@@ -459,6 +460,8 @@ p.calltoaction {
 .week {
   width: 80%;
   margin-left: 10%;
+  margin-top: 0rem;
+  margin-bottom: 5rem;
 }
 
 .banner-white {
@@ -466,6 +469,12 @@ p.calltoaction {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+.banner-black {
+  background-color: black;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 
 
 main a:link {
