@@ -40,6 +40,15 @@ header {
     animation: neonGlow 2s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
+.sitename a {
+  font-family: 'Bellota', cursive;
+  text-shadow: 0 0 20px #ffffff;
+  font-size: 4rem;
+  margin-top: .25rem;
+  margin-bottom: .5rem;
+  animation: neonGlow 2s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
 @keyframes neonGlow {
     0% {
       text-shadow: 0 0 10px #ffffff,
