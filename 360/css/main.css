@@ -175,8 +175,8 @@ header {
     font-size: 2.2rem;
     text-transform: capitalize;
       text-align: center;
-    bottom: 50%;
-    padding-top:50%;
+    bottom: 40%;
+    padding-top:40%;
     z-index: 1;
     animation: neonGlow 2s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
   }
@@ -194,7 +194,7 @@ header {
   }
   
   #demo2 {
-  top: 50%;
+  top: 40%;
   text-align: center;
   text-transform: uppercase;
       
@@ -224,11 +224,11 @@ header {
     transition: opacity 0.5s;
   }
   .img:before {
-    background: rgba(223,100,223, 0.4)
+    background: rgba(223,100,223, 0.5)
   }
   
   .img:after {
-    background: linear-gradient(to top, transparent, rgba(223,100,223, 0.3), transparent);
+    background: linear-gradient(to top, transparent, rgba(223,100,223, 0.7), transparent);
   }
   
   /*** HOVER EFFECT  **********************************************************************/
