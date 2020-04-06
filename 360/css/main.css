@@ -652,7 +652,7 @@ footer a:visited {
 
 /*** BUTTONS ***/
 .glow-on-hover {
-    width: 220px;
+    width: 100px;
     height: 50px;
     border: none;
     outline: none;
@@ -709,6 +709,10 @@ footer a:visited {
     0% { background-position: 0 0; }
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
+}
+
+.home {
+    font-size: 4rem;
 }
 
 #glow {
