@@ -104,7 +104,7 @@ header {
     
 }
 
-.banner {
+.banner-img {
     max-width: 40%;
     height: auto;
     margin-left: 33%;
@@ -464,15 +464,9 @@ p.calltoaction {
   margin-bottom: 5rem;
 }
 
-.banner-white {
-    background-color: white;
+.banner {
     margin-top: 1rem;
     margin-bottom: 1rem;
-}
-.banner-black {
-  background-color: black;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
 }
 
 
