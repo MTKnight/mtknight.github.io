@@ -104,6 +104,13 @@ header {
     
 }
 
+.banner {
+    width: 40%;
+    height: auto;
+    margin-left: 30%;
+}
+
+
 /*** Hex Nav ***/
 #hexGrid {
     display: flex;
@@ -259,7 +266,7 @@ header {
   }
   
   
-  /*** HEXAGON SIZING AND EVEN ROW INDENTATION *****************************************************************/
+  /*** HEXAGON SIZING AND EVEN ROW INDENTATION ***/
   @media (min-width:1201px) { /* <- 5-4  hexagons per row */
     #hexGrid{
       padding-bottom: 4.4%
@@ -449,9 +456,13 @@ p.calltoaction {
     border: transparent 5px;
 }
 
+.week {
+  width: 80%;
+  margin-left: 10%;
+}
+
 .banner-white {
     background-color: white;
-    width: 110%;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
@@ -732,7 +743,3 @@ footer a:visited {
     color: #0a0610;
 }
 
-/*** Week 1 ***/
-.week1 {
-    background-color: #ffffff;
-}
