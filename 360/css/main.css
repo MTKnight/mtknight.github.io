@@ -445,6 +445,10 @@ p.calltoaction {
     font-size: 1rem;
 }
 
+.spacer {
+    border: transparent 5px;
+}
+
 .banner-white {
     background-color: white;
     width: 110%;
@@ -730,5 +734,5 @@ footer a:visited {
 
 /*** Week 1 ***/
 .week1 {
-    background-color: #f2c1f2;
+    background-color: #ffffff;
 }
