@@ -715,6 +715,11 @@ footer a:visited {
     font-size: 4rem;
 }
 
+.home img {
+    width: 3rem;
+    height: auto;
+}
+
 #glow {
     color: #0a0610;
 }
