@@ -528,26 +528,7 @@ p.calltoaction {
 
 
 
-main a:link {
-    font-family: 'Montserrat', sans-serif;
-    background: linear-gradient(to right, #4bbb5d, #df64df, #6c44a1, #6bc8ee);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-style: italic;
-    text-decoration: underline;
-    font-weight: bolder;
-}
 
-main a:hover {
-  font-family: 'Montserrat', sans-serif;
-  color:#d63ad6;
-}
-
-main a:visited {
-    font-family: 'Montserrat', sans-serif;
-    color: #338740;
-    font-style: italic;
-}
 
 .welcome {
     margin-bottom: -.8rem;
