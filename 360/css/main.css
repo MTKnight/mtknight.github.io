@@ -368,19 +368,19 @@ h4 {
     @keyframes littleGlow {
         0% {
             text-shadow:0 0 10px #eeeeee, 
-                        0 0 20px #fcfc9e, 
-                        0 0 30px #fcfc9e, 
-                        0 0 40px #fcfc9e, 
-                        0 0 50px #fcfc9e, 
+                        0 0 20px #eeeeee, 
+                        0 0 30px #eeeeee, 
+                        0 0 40px transparent, 
+                        0 0 50px transparent, 
                         0 0 60px transparent, 
                         0 0 70px transparent;
         }
         100% {
             text-shadow:0 0 20px #eeeeee, 
-                        0 0 30px #6cdbfb, 
-                        0 0 40px #6cdbfb, 
-                        0 0 50px #6cdbfb, 
-                        0 0 60px #6cdbfb, 
+                        0 0 30px #eeeeee, 
+                        0 0 40px #eeeeee, 
+                        0 0 50px transparent, 
+                        0 0 60px transparent, 
                         0 0 70px transparent, 
                         0 0 80px transparent;
         }
@@ -392,6 +392,7 @@ h5 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 2rem;
+    font-weight: bolder;
     text-align: center;
     text-shadow: 0 0 30px #b7cee1;
     margin-top: 5px;
@@ -426,9 +427,18 @@ h8 {
 }
 
 h9 {
-    padding: 20px;
     font-family: 'Montserrat', sans-serif;
-    color: #070d12;
+    font-size: 1.5rem;
+    color: #0a1417;
+    text-transform: uppercase;
+    animation: littleGlow 2s ease-in-out infinite alternate;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: -11px;
+    display: block;
+
+
 }
 
 h10 {
