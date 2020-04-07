@@ -530,13 +530,15 @@ p.calltoaction {
 
 main a:link {
     font-family: 'Montserrat', sans-serif;
-    color:#b585f2;
-    text-decoration: none;
+    color:#d63ad6;
+    font-style: italic;
+    font-weight: bolder;
 }
 
 main a:visited {
     font-family: 'Montserrat', sans-serif;
-	color:#5a4279;
+    color: #338740;
+    font-style: italic;
 }
 
 .welcome {
