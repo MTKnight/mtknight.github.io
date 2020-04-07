@@ -526,6 +526,17 @@ p.calltoaction {
     text-align: center;
 }
 
+main a:link {
+  font-family: 'Montserrat', sans-serif;
+  color:#d63ad6;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+main a:visited {
+  font-family: 'Montserrat', sans-serif;
+  color: #338740;
+}
 
 
 
