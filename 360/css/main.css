@@ -357,34 +357,18 @@ h3 {
 }
 
 h4 {
-    font-family: 'Bellota', cursive;
-    font-size: 1.7rem;
-    color: #0f1a24;
-    text-align: center;
-    padding-bottom: 0em;
-    animation: littleGlow 2s ease-in-out infinite alternate;
+  font-family: 'Bellota', cursive;
+  background: linear-gradient(to right, #4bbb5d, #fffb00, #4bbb5d, #6bc8ee, #4bbb5d, #fffb00, #4bbb5d, #6bc8ee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2rem;
+  font-weight: bolder;
+  text-align: center;
+  text-shadow: 0 0 30px #b7cee1;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  line-height: 2.5rem;
 }
-
-    @keyframes littleGlow {
-        0% {
-            text-shadow:0 0 10px #eeeeee, 
-                        0 0 20px #eeeeee, 
-                        0 0 30px #eeeeee, 
-                        0 0 40px transparent, 
-                        0 0 50px transparent, 
-                        0 0 60px transparent, 
-                        0 0 70px transparent;
-        }
-        100% {
-            text-shadow:0 0 20px #eeeeee, 
-                        0 0 30px #eeeeee, 
-                        0 0 40px #eeeeee, 
-                        0 0 50px transparent, 
-                        0 0 60px transparent, 
-                        0 0 70px transparent, 
-                        0 0 80px transparent;
-        }
-    }
 
 h5 {
     font-family: 'Bellota', cursive;
@@ -410,12 +394,17 @@ h6 {
 
 
 h7 {
-    font-family: 'Bellota', cursive;
-    font-size: 1.8rem;
-    color: #3c6b90;
-    text-align: center;
-    margin-top: 10rem;
-    margin-bottom: 10rem;
+  font-family: 'Bellota', cursive;
+  background: linear-gradient(to right, #4bbb5d, #fffb00, #4bbb5d, #6bc8ee, #4bbb5d, #fffb00, #4bbb5d, #6bc8ee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2rem;
+  font-weight: bolder;
+  text-align: center;
+  text-shadow: 0 0 30px #b7cee1;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  line-height: 2.5rem;
 }
 
 h8 {
