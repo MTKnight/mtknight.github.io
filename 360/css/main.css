@@ -388,12 +388,15 @@ h4 {
 
 h5 {
     font-family: 'Bellota', cursive;
-    color: #0f1a24;
+    background: linear-gradient(to right, #df64df, #fffb00, #df64df, #6c44a1, #df64df, #fbcb35, #df64df, #6c44a1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 2rem;
     text-align: center;
     text-shadow: 0 0 30px #b7cee1;
     margin-top: 5px;
     margin-bottom: 5px;
+    line-height: 2.5rem;
 }
 
 h6 {
@@ -439,6 +442,19 @@ h10 {
     margin-left: 15rem;
     margin-right: auto;
 }
+
+h11 {
+  background: linear-gradient(to right, #df64df, #fffb00, #df64df, #6c44a1, #df64df, #fbcb35, #df64df, #6c44a1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Bellota', cursive;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
 
 p {
     font-family: 'Montserrat', sans-serif;
